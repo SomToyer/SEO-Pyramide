@@ -140,19 +140,19 @@ export default function WuffiUndDieSchlafschafePage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/" className="hover:text-purple-600">Home</a>
+                <a href="/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt" className="hover:text-purple-600">Lesewelt</a>
+                <a href="/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt/gutenachtgeschichten" className="hover:text-purple-600">
+                <a href="/lesewelt/gutenachtgeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Gutenachtgeschichten
                 </a>
               </li>
@@ -160,7 +160,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:text-purple-600">
+                <a href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Mit Hunden
                 </a>
               </li>
@@ -175,7 +175,7 @@ export default function WuffiUndDieSchlafschafePage() {
 
           {/* Artikel-Header */}
           <header className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-purple-600">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#f77f00' }}>
               🐕💤 Wuffi und die Schlafschafe
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
@@ -200,7 +200,7 @@ export default function WuffiUndDieSchlafschafePage() {
           </div>
 
           {/* Teaser */}
-          <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-8 rounded-r-lg">
+          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg" style={{ borderLeftColor: '#f77f00' }}>
             <p className="text-lg text-gray-700 italic leading-relaxed">
               Wuffi, der kleine zottelige Hund, will der beste Schlafschaf-Champion werden.
               Doch Stillsitzen ist gar nicht so einfach! Eine lustige und beruhigende
@@ -308,7 +308,7 @@ export default function WuffiUndDieSchlafschafePage() {
           </div>
 
           {/* ★ PRODUKTBOX mit echtem Bild - NACH der Geschichte */}
-          <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-12 border-2 border-purple-200 shadow-lg">
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -325,7 +325,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-purple-700 mb-3">
+                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
                   Geschichten wie Wuffi interaktiv erleben
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -339,7 +339,10 @@ export default function WuffiUndDieSchlafschafePage() {
                 </div>
                 <a
                   href="https://fluxie.de/produkt/pionierset/"
-                  className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+                  className="inline-block text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                  style={{ backgroundColor: '#f77f00' }}
+                  onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#d66d00'}
+                  onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#f77f00'}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -353,7 +356,8 @@ export default function WuffiUndDieSchlafschafePage() {
           <div className="mb-12">
             <a
               href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
-              className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium"
+              className="inline-flex items-center font-medium hover:opacity-80 transition"
+              style={{ color: '#f77f00' }}
             >
               ← Zurück zu allen Hundegeschichten
             </a>
@@ -367,10 +371,10 @@ export default function WuffiUndDieSchlafschafePage() {
             <div className="grid md:grid-cols-3 gap-6">
               <a
                 href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
-                className="bg-purple-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
+                className="bg-orange-50 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
                 <div className="text-5xl mb-3">🐕✨</div>
-                <h3 className="font-bold text-purple-600 mb-2">Mehr Hundegeschichten</h3>
+                <h3 className="font-bold mb-2" style={{ color: '#f77f00' }}>Mehr Hundegeschichten</h3>
                 <p className="text-sm text-gray-600">Entdecke alle Gutenachtgeschichten mit Hunden</p>
               </a>
 

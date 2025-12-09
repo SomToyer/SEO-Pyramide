@@ -194,7 +194,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
 
           {/* Header mit Intro */}
           <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-purple-600">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#f77f00' }}>
               🐕 Gutenachtgeschichten mit Hunden
             </h1>
 
@@ -234,7 +234,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
                         className="w-20 h-20 object-cover rounded-lg"
                       />
                     </div>
-                    <h3 className="text-xl font-bold mb-3 text-purple-600 group-hover:text-purple-700">
+                    <h3 className="text-xl font-bold mb-3 group-hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                       Wuffi und die Schlafschafe
                     </h3>
                     <p className="text-gray-600 mb-4 flex-grow">
