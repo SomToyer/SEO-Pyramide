@@ -187,6 +187,18 @@ export default function WuffiUndDieSchlafschafePage() {
             </div>
           </header>
 
+          {/* ★ Story-Bild (wie wunschturmkinder) */}
+          <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
+            <img
+              src="https://wunschturmkinder.de/wp-content/uploads/2025/02/wuffi_001.jpg"
+              alt="Wuffi und die Schlafschafe - Gutenachtgeschichte Illustration"
+              className="w-full h-auto"
+              width={800}
+              height={1200}
+              loading="eager"
+            />
+          </div>
+
           {/* Teaser */}
           <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-8 rounded-r-lg">
             <p className="text-lg text-gray-700 italic leading-relaxed">
@@ -206,7 +218,7 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Juhu! Endlich ist der Winter vorbei!", bellt er fröhlich. Seine Pfoten trommeln auf
+              <strong>"Juhu! Endlich ist der Winter vorbei!"</strong>, bellt er fröhlich. Seine Pfoten trommeln auf
               den weichen Boden, und seine schwarzen Ohren flattern wie kleine Fähnchen im Wind.
             </p>
 
@@ -217,19 +229,19 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Määäähh!", ruft das kleinste Schaf begeistert. "Wuffi, du kommst genau richtig!
-              Wir haben gerade eine tolle Idee für ein neues Spiel!"
+              <strong>"Määäähh!"</strong>, ruft das kleinste Schaf begeistert. <strong>"Wuffi, du kommst genau richtig!
+              Wir haben gerade eine tolle Idee für ein neues Spiel!"</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              Wuffis braune Augen leuchten vor Aufregung. "Ein neues Spiel? Oh ja, ich liebe neue Spiele!",
+              Wuffis braune Augen leuchten vor Aufregung. <strong>"Ein neues Spiel? Oh ja, ich liebe neue Spiele!"</strong>,
               ruft er und macht vor Freude einen Luftsprung. Seine Pfoten zappeln wild, und sein Schwanz
               wedelt wie ein kleiner Propeller.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Wir sind die Schlafschafe", erklärt das größte Schaf mit wichtiger Stimme. "Wer am längsten
-              die Augen geschlossen halten kann, ohne zu blinzeln oder zu zappeln, ist der Champion!"
+              <strong>"Wir sind die Schlafschafe"</strong>, erklärt das größte Schaf mit wichtiger Stimme. <strong>"Wer am längsten
+              die Augen geschlossen halten kann, ohne zu blinzeln oder zu zappeln, ist der Champion!"</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -238,8 +250,8 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Das ist ja supereinfach!", prahlt er. "Ich werde der beste Schlafschaf-Champion aller Zeiten!
-              Ich kann stillsitzen wie eine Statue!"
+              <strong>"Das ist ja supereinfach!"</strong>, prahlt er. <strong>"Ich werde der beste Schlafschaf-Champion aller Zeiten!
+              Ich kann stillsitzen wie eine Statue!"</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -248,7 +260,7 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Na dann", sagt das dickste Schaf und räuspert sich feierlich. "Alle Augen zu... und... START!"
+              <strong>"Na dann"</strong>, sagt das dickste Schaf und räuspert sich feierlich. <strong>"Alle Augen zu... und... START!"</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -259,8 +271,8 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Ruhe bewahren!", flüstert das älteste Schaf sanft. "Denk an etwas Ruhiges, wie eine
-              schlafende Blume."
+              <strong>"Ruhe bewahren!"</strong>, flüstert das älteste Schaf sanft. <strong>"Denk an etwas Ruhiges, wie eine
+              schlafende Blume."</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -269,7 +281,7 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Ich... ich... ich muss... HATSCHIIII!" Wuffis Nieser ist so gewaltig, dass die Gänseblümchen
+              <strong>"Ich... ich... ich muss... HATSCHIIII!"</strong> Wuffis Nieser ist so gewaltig, dass die Gänseblümchen
               ihre Köpfe schütteln und der Schmetterling erschrocken davonflattert.
             </p>
 
@@ -279,8 +291,8 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Okay, okay", gibt er zu und grinst verlegen. "Vielleicht bin ich nicht das beste Schlafschaf.
-              Aber dafür bin ich das allerbeste Spielschaf!"
+              <strong>"Okay, okay"</strong>, gibt er zu und grinst verlegen. <strong>"Vielleicht bin ich nicht das beste Schlafschaf.
+              Aber dafür bin ich das allerbeste Spielschaf!"</strong>
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -289,7 +301,7 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              "Das ist tausendmal besser als Stillsitzen", bellt Wuffi glücklich, während Grashalme aus
+              <strong>"Das ist tausendmal besser als Stillsitzen"</strong>, bellt Wuffi glücklich, während Grashalme aus
               seinem zotteligen Fell schauen. Die Schafe schmiegen sich an ihn und blöken zustimmend.
               Manchmal ist es eben am schönsten, einfach man selbst zu sein.
             </p>
