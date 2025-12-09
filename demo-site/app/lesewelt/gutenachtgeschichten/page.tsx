@@ -170,9 +170,18 @@ export default function GutenachtgeschichtenPage() {
           <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-12 border-2 border-purple-200 shadow-lg">
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
-                <div className="w-32 h-32 bg-purple-200 rounded-xl flex items-center justify-center text-6xl">
-                  🌙
-                </div>
+                <a
+                  href="https://fluxie.de/produkt/pionierset/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <img
+                    src="https://fluxie.de/wp-content/uploads/2025/08/Product_shots_starterset.png"
+                    alt="Fluxie Pionierset - Starter-Set mit Lesekarten"
+                    className="w-48 h-48 object-contain hover:scale-105 transition-transform duration-300"
+                  />
+                </a>
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-purple-700 mb-3">
