@@ -204,6 +204,50 @@ export default function GutenachtgeschichtenPage() {
             </div>
           </div>
 
+          {/* Gutenachtgeschichten nach Themen - NACH OBEN VERSCHOBEN! */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">
+              Gutenachtgeschichten nach Themen
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <a
+                href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
+                className="group"
+              >
+                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
+                  <div className="text-5xl mb-3">🐕</div>
+                  <h3 className="text-xl font-bold mb-2 text-purple-600 group-hover:text-purple-700">
+                    Gutenachtgeschichten mit Hunden
+                  </h3>
+                  <p className="text-gray-600">
+                    Herzerwärmende Einschlafgeschichten mit treuen Vierbeinern, die Kindern
+                    zeigen, wie wunderbar Freundschaft und Geborgenheit sind.
+                  </p>
+                </article>
+              </a>
+
+              <div className="bg-gray-100 rounded-xl p-6 opacity-60">
+                <div className="text-5xl mb-3">🐱</div>
+                <h3 className="text-xl font-bold mb-2 text-gray-600">
+                  Weitere Themen folgen...
+                </h3>
+                <p className="text-gray-500">
+                  Bald findest du hier noch mehr zauberhafte Gutenachtgeschichten zu verschiedenen Themen!
+                </p>
+              </div>
+            </div>
+
+            {/* CTA-Button */}
+            <div className="text-center">
+              <a
+                href="/lesewelt"
+                className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+              >
+                Alle Geschichten entdecken →
+              </a>
+            </div>
+          </section>
+
           {/* Warum Gutenachtgeschichten wichtig sind */}
           <section className="mb-12 bg-white rounded-xl p-8 shadow-md">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
@@ -238,6 +282,79 @@ export default function GutenachtgeschichtenPage() {
                 </li>
               </ul>
             </div>
+          </section>
+
+          {/* Beliebte Geschichten - NEU! */}
+          <section className="mb-12">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">
+              Beliebte Gutenachtgeschichten
+            </h2>
+            <p className="text-lg text-gray-700 mb-6">
+              Diese Geschichten werden von Kindern besonders geliebt und sind perfekt für das abendliche Vorleseritual:
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              {/* Story Card 1 */}
+              <a
+                href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden/wuffi-und-die-schlafschafe"
+                className="group block"
+              >
+                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
+                  <div className="text-4xl mb-4 text-center">🐕💤</div>
+                  <h3 className="text-lg font-bold mb-2 text-purple-600 group-hover:text-purple-700">
+                    Wuffi und die Schlafschafe
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Eine lustige Geschichte über einen quirligen Hund, der lernt, zur Ruhe zu kommen.
+                  </p>
+                  <div className="text-xs text-gray-500">
+                    <span className="mr-3">👶 Ab 3 Jahren</span>
+                    <span>⏱️ 5 Min.</span>
+                  </div>
+                </article>
+              </a>
+
+              {/* Placeholder Card 2 */}
+              <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
+                <div className="text-4xl mb-4 text-center">🌙✨</div>
+                <h3 className="text-lg font-bold mb-2 text-gray-600">
+                  Weitere Geschichten folgen
+                </h3>
+                <p className="text-sm text-gray-500 mb-3">
+                  Bald findest du hier noch mehr zauberhafte Geschichten.
+                </p>
+                <div className="text-xs text-gray-400">
+                  <span className="mr-3">Demnächst...</span>
+                </div>
+              </div>
+
+              {/* Placeholder Card 3 */}
+              <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
+                <div className="text-4xl mb-4 text-center">📖💫</div>
+                <h3 className="text-lg font-bold mb-2 text-gray-600">
+                  Neue Abenteuer
+                </h3>
+                <p className="text-sm text-gray-500 mb-3">
+                  Jeden Monat kommen neue Gutenachtgeschichten hinzu.
+                </p>
+                <div className="text-xs text-gray-400">
+                  <span className="mr-3">Bald verfügbar</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Tipps für das Vorlesen - NACH OBEN VERSCHOBEN! */}
+          <section className="mb-12 bg-purple-50 rounded-xl p-8 border-2 border-purple-100">
+            <h2 className="text-2xl font-bold mb-4 text-purple-800">
+              💡 Tipps für das abendliche Vorlesen
+            </h2>
+            <ul className="space-y-2 text-gray-700">
+              <li>✓ <strong>Feste Routine:</strong> Lies jeden Abend zur gleichen Zeit vor</li>
+              <li>✓ <strong>Ruhige Atmosphäre:</strong> Dimme das Licht und schaffe eine gemütliche Umgebung</li>
+              <li>✓ <strong>Langsam lesen:</strong> Nimm dir Zeit und lies mit ruhiger Stimme</li>
+              <li>✓ <strong>Kuscheln:</strong> Körperliche Nähe verstärkt die beruhigende Wirkung</li>
+              <li>✓ <strong>Kurze Geschichten:</strong> Wähle altersgerechte Geschichten, die nicht zu aufregend sind</li>
+            </ul>
           </section>
 
           {/* Die Bedeutung von Gutenachtgeschichten - Wissenschaftlich fundiert */}
@@ -387,54 +504,6 @@ export default function GutenachtgeschichtenPage() {
                 </p>
               </div>
             </div>
-          </section>
-
-          {/* Unterkategorien */}
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold mb-6 text-gray-800">
-              Gutenachtgeschichten nach Themen
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <a
-                href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
-                className="group"
-              >
-                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
-                  <div className="text-5xl mb-3">🐕</div>
-                  <h3 className="text-xl font-bold mb-2 text-purple-600 group-hover:text-purple-700">
-                    Gutenachtgeschichten mit Hunden
-                  </h3>
-                  <p className="text-gray-600">
-                    Herzerwärmende Einschlafgeschichten mit treuen Vierbeinern, die Kindern
-                    zeigen, wie wunderbar Freundschaft und Geborgenheit sind.
-                  </p>
-                </article>
-              </a>
-
-              <div className="bg-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-5xl mb-3">🐱</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-600">
-                  Weitere Themen folgen...
-                </h3>
-                <p className="text-gray-500">
-                  Bald findest du hier noch mehr zauberhafte Gutenachtgeschichten zu verschiedenen Themen!
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* Tipps für das Vorlesen */}
-          <section className="bg-purple-50 rounded-xl p-8 border-2 border-purple-100">
-            <h2 className="text-2xl font-bold mb-4 text-purple-800">
-              💡 Tipps für das abendliche Vorlesen
-            </h2>
-            <ul className="space-y-2 text-gray-700">
-              <li>✓ <strong>Feste Routine:</strong> Lies jeden Abend zur gleichen Zeit vor</li>
-              <li>✓ <strong>Ruhige Atmosphäre:</strong> Dimme das Licht und schaffe eine gemütliche Umgebung</li>
-              <li>✓ <strong>Langsam lesen:</strong> Nimm dir Zeit und lies mit ruhiger Stimme</li>
-              <li>✓ <strong>Kuscheln:</strong> Körperliche Nähe verstärkt die beruhigende Wirkung</li>
-              <li>✓ <strong>Kurze Geschichten:</strong> Wähle altersgerechte Geschichten, die nicht zu aufregend sind</li>
-            </ul>
           </section>
         </div>
       </div>
