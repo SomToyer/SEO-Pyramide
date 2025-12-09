@@ -14,17 +14,17 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body>
-        <nav className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg">
+        <nav className="bg-gradient-to-r from-fluxie-orange to-amber-600 text-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
-              <a href="/" className="text-2xl font-bold hover:text-purple-200 transition">
+              <a href="/" className="text-2xl font-bold hover:text-orange-100 transition">
                 🏠 Fluxie
               </a>
               <div className="flex gap-6">
-                <a href="/lesewelt" className="hover:text-purple-200 transition font-medium">
+                <a href="/lesewelt" className="hover:text-orange-100 transition font-medium">
                   📚 Lesewelt
                 </a>
-                <a href="/blog" className="hover:text-purple-200 transition font-medium">
+                <a href="/blog" className="hover:text-orange-100 transition font-medium">
                   ✍️ Blog
                 </a>
               </div>

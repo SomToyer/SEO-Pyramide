@@ -4,19 +4,19 @@ export default function WuffiUndDieSchlafschafePage() {
       <article className="max-w-3xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-purple-600">Home</a>
+          <a href="/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
-          <a href="/lesewelt" className="hover:text-purple-600">Lesewelt</a>
+          <a href="/lesewelt" className="hover:text-fluxie-orange">Lesewelt</a>
           <span className="mx-2">›</span>
-          <a href="/lesewelt/gutenachtgeschichten" className="hover:text-purple-600">Gutenachtgeschichten</a>
+          <a href="/lesewelt/gutenachtgeschichten" className="hover:text-fluxie-orange">Gutenachtgeschichten</a>
           <span className="mx-2">›</span>
-          <a href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:text-purple-600">Mit Hunden</a>
+          <a href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="hover:text-fluxie-orange">Mit Hunden</a>
           <span className="mx-2">›</span>
           <span>Wuffi und die Schlafschafe</span>
         </nav>
 
         {/* Artikel-Header */}
-        <h1 className="text-4xl font-bold mb-4 text-purple-600">
+        <h1 className="text-4xl font-bold mb-4 text-fluxie-orange">
           🐕💤 Wuffi und die Schlafschafe
         </h1>
         <div className="flex items-center gap-4 mb-8 text-sm text-gray-600">
@@ -26,7 +26,7 @@ export default function WuffiUndDieSchlafschafePage() {
         </div>
 
         {/* Teaser */}
-        <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-8 rounded-r-lg">
+        <div className="bg-orange-50 border-l-4 border-fluxie-orange p-6 mb-8 rounded-r-lg">
           <p className="text-lg text-gray-700 italic">
             Wuffi, der kleine zottelige Hund, will der beste Schlafschaf-Champion werden.
             Doch Stillsitzen ist gar nicht so einfach!
@@ -34,13 +34,13 @@ export default function WuffiUndDieSchlafschafePage() {
         </div>
 
         {/* Fluxie-Produkt-Box */}
-        <div className="bg-gradient-to-r from-purple-100 to-indigo-100 rounded-xl p-6 mb-12 border-2 border-purple-200">
+        <div className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 mb-12 border-2 border-fluxie-orange">
           <div className="flex items-start gap-6">
             <div className="bg-white p-4 rounded-lg shadow-md flex-shrink-0">
               <div className="text-6xl">🎴</div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 text-purple-600">
+              <h3 className="text-xl font-bold mb-2 text-fluxie-orange">
                 Diese Geschichte interaktiv erleben
               </h3>
               <p className="text-gray-700 mb-4">
@@ -49,7 +49,7 @@ export default function WuffiUndDieSchlafschafePage() {
               </p>
               <a
                 href="https://fluxie.de/produkt/pionierset/"
-                className="inline-block bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700 transition font-medium"
+                className="inline-block bg-fluxie-orange text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition font-medium"
               >
                 Jetzt Lesekarte entdecken →
               </a>

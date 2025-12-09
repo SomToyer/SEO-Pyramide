@@ -4,17 +4,17 @@ export default function LeseeckePage() {
       <article className="max-w-3xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-indigo-600">Home</a>
+          <a href="/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
-          <a href="/blog" className="hover:text-indigo-600">Blog</a>
+          <a href="/blog" className="hover:text-fluxie-orange">Blog</a>
           <span className="mx-2">›</span>
-          <a href="/blog/vorlesen" className="hover:text-indigo-600">Vorlesen</a>
+          <a href="/blog/vorlesen" className="hover:text-fluxie-orange">Vorlesen</a>
           <span className="mx-2">›</span>
           <span>Leseecke einrichten</span>
         </nav>
 
         {/* Artikel-Header */}
-        <h1 className="text-4xl font-bold mb-4 text-indigo-600">
+        <h1 className="text-4xl font-bold mb-4 text-fluxie-orange">
           🏡 Leseecke einrichten: Tipps für die perfekte Leseoase
         </h1>
         <div className="flex items-center gap-4 mb-8 text-sm text-gray-600">
@@ -26,7 +26,7 @@ export default function LeseeckePage() {
         </div>
 
         {/* Teaser */}
-        <div className="bg-indigo-50 border-l-4 border-indigo-600 p-6 mb-8 rounded-r-lg">
+        <div className="bg-orange-50 border-l-4 border-fluxie-orange p-6 mb-8 rounded-r-lg">
           <p className="text-lg text-gray-700">
             Eine gemütliche Leseecke macht das Vorlesen zu einem besonderen Erlebnis.
             Erfahre, wie du mit einfachen Mitteln einen magischen Ort zum Lesen schaffst,
@@ -35,13 +35,13 @@ export default function LeseeckePage() {
         </div>
 
         {/* Fluxie-Produkt-Box */}
-        <div className="bg-gradient-to-r from-indigo-100 to-purple-100 rounded-xl p-6 mb-12 border-2 border-indigo-200">
+        <div className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 mb-12 border-2 border-fluxie-orange">
           <div className="flex items-start gap-6">
             <div className="bg-white p-4 rounded-lg shadow-md flex-shrink-0">
               <div className="text-6xl">🎴</div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 text-indigo-600">
+              <h3 className="text-xl font-bold mb-2 text-fluxie-orange">
                 Die perfekte Leseecke mit Fluxie
               </h3>
               <p className="text-gray-700 mb-4">
@@ -50,7 +50,7 @@ export default function LeseeckePage() {
               </p>
               <a
                 href="https://fluxie.de/produkt/pionierset/"
-                className="inline-block bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition font-medium"
+                className="inline-block bg-fluxie-orange text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition font-medium"
               >
                 Jetzt entdecken →
               </a>
@@ -61,7 +61,7 @@ export default function LeseeckePage() {
         {/* Inhaltsverzeichnis */}
         <div className="bg-gray-50 rounded-lg p-6 mb-8">
           <h2 className="text-xl font-bold mb-4 text-gray-800">Inhaltsverzeichnis</h2>
-          <ol className="space-y-2 text-indigo-600">
+          <ol className="space-y-2 text-fluxie-orange">
             <li><a href="#warum" className="hover:underline">1. Warum eine Leseecke wichtig ist</a></li>
             <li><a href="#ort" className="hover:underline">2. Der richtige Ort</a></li>
             <li><a href="#gestaltung" className="hover:underline">3. Gemütliche Gestaltung</a></li>
@@ -170,16 +170,16 @@ export default function LeseeckePage() {
         </div>
 
         {/* CTA-Banner */}
-        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-xl p-8 my-12 text-white text-center">
+        <div className="bg-gradient-to-r from-fluxie-orange to-amber-600 rounded-xl p-8 my-12 text-white text-center">
           <h3 className="text-2xl font-bold mb-4">
             Jetzt Fluxie testen und Lesen fördern
           </h3>
-          <p className="mb-6 text-indigo-100">
+          <p className="mb-6 text-orange-100">
             Über 1.000 zufriedene Eltern vertrauen auf Fluxie. Mach das Lesen zu einem Abenteuer!
           </p>
           <a
             href="https://fluxie.de/shop"
-            className="inline-block bg-white text-indigo-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition font-bold"
+            className="inline-block bg-white text-fluxie-orange px-8 py-3 rounded-lg hover:bg-gray-100 transition font-bold"
           >
             Zum Shop →
           </a>
@@ -187,10 +187,10 @@ export default function LeseeckePage() {
 
         {/* Tags */}
         <div className="flex flex-wrap gap-2 mb-8">
-          <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">#Vorlesen</span>
-          <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">#Leseecke</span>
-          <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">#Leseförderung</span>
-          <span className="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">#Tipps</span>
+          <span className="bg-orange-100 text-fluxie-orange px-3 py-1 rounded-full text-sm">#Vorlesen</span>
+          <span className="bg-orange-100 text-fluxie-orange px-3 py-1 rounded-full text-sm">#Leseecke</span>
+          <span className="bg-orange-100 text-fluxie-orange px-3 py-1 rounded-full text-sm">#Leseförderung</span>
+          <span className="bg-orange-100 text-fluxie-orange px-3 py-1 rounded-full text-sm">#Tipps</span>
         </div>
 
         {/* Verwandte Artikel */}

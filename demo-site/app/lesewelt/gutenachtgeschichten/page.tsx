@@ -4,15 +4,15 @@ export default function GutenachtgeschichtenPage() {
       <div className="max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-purple-600">Home</a>
+          <a href="/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
-          <a href="/lesewelt" className="hover:text-purple-600">Lesewelt</a>
+          <a href="/lesewelt" className="hover:text-fluxie-orange">Lesewelt</a>
           <span className="mx-2">›</span>
           <span>Gutenachtgeschichten</span>
         </nav>
 
         {/* Kategorie-Header */}
-        <h1 className="text-4xl font-bold mb-4 text-purple-600">
+        <h1 className="text-4xl font-bold mb-4 text-fluxie-orange">
           🌙 Gutenachtgeschichten
         </h1>
         <p className="text-lg text-gray-600 mb-12">
@@ -26,7 +26,7 @@ export default function GutenachtgeschichtenPage() {
           <a href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
               <div className="text-5xl mb-3">🐕</div>
-              <h3 className="text-xl font-bold mb-2 text-purple-600 group-hover:text-purple-700">
+              <h3 className="text-xl font-bold mb-2 text-fluxie-orange group-hover:text-amber-600">
                 Gutenachtgeschichten mit Hunden
               </h3>
               <p className="text-gray-600">
