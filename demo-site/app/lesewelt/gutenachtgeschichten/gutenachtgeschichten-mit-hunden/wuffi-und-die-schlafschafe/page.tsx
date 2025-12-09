@@ -188,13 +188,13 @@ export default function WuffiUndDieSchlafschafePage() {
           </header>
 
           {/* ★ Story-Bild (wie wunschturmkinder) */}
-          <div className="mb-8 rounded-2xl overflow-hidden shadow-lg max-w-sm mx-auto" style={{ maxHeight: '300px' }}>
+          <div className="mb-8 rounded-2xl overflow-hidden shadow-lg max-w-sm mx-auto">
             <img
               src="https://wunschturmkinder.de/wp-content/uploads/2025/02/wuffi_001.jpg"
               alt="Wuffi und die Schlafschafe - Gutenachtgeschichte Illustration"
-              className="w-full h-full object-cover"
+              className="w-full h-auto"
               width={400}
-              height={300}
+              height={600}
               loading="eager"
             />
           </div>
