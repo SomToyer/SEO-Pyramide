@@ -227,7 +227,13 @@ export default function GutenachtgeschichtenMitHundenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
                   <div className="flex flex-col h-full">
-                    <div className="text-6xl mb-4 text-center">🐕💤</div>
+                    <div className="mb-4 flex justify-center">
+                      <img
+                        src="https://wunschturmkinder.de/wp-content/uploads/2025/02/wuffi_001.jpg"
+                        alt="Wuffi und die Schlafschafe"
+                        className="w-20 h-20 object-cover rounded-lg"
+                      />
+                    </div>
                     <h3 className="text-xl font-bold mb-3 text-purple-600 group-hover:text-purple-700">
                       Wuffi und die Schlafschafe
                     </h3>
