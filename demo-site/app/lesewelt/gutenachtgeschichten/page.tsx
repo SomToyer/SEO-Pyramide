@@ -363,6 +363,43 @@ export default function GutenachtgeschichtenPage() {
             </ul>
           </section>
 
+          {/* Einzelkarten Produktbox */}
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
+            <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="flex-shrink-0">
+                <a
+                  href="https://fluxie.de/produkt/einzelkarten/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <img
+                    src="https://fluxie.de/wp-content/uploads/2025/08/4-2-1.png"
+                    alt="Fluxie Einzelkarte"
+                    className="w-48 h-48 object-contain hover:scale-105 transition-transform duration-300"
+                  />
+                </a>
+              </div>
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
+                  Erweitere deine Geschichtensammlung
+                </h3>
+                <p className="text-gray-700 mb-4 leading-relaxed">
+                  Entdecke weitere zauberhafte Geschichten mit unseren Einzelkarten. Perfekt, um die
+                  Gutenachtgeschichten-Sammlung zu erweitern und jeden Abend neue Abenteuer zu erleben!
+                </p>
+                <a
+                  href="https://fluxie.de/produkt/einzelkarten/"
+                  className="inline-block bg-fluxie-orange hover:bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Einzelkarten entdecken →
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Die Bedeutung von Gutenachtgeschichten - Wissenschaftlich fundiert */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
