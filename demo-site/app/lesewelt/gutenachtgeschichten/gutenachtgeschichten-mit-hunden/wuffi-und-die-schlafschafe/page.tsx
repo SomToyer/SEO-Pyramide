@@ -1,11 +1,11 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Wuffi und die Schlafschafe – Lustige Hundegeschichte zum Einschlafen | Fluxie',
-  description: 'Wuffi will der beste Schlafschaf-Champion werden ✓ Lustige Gutenachtgeschichte mit Hund ✓ 5 Min. Lesezeit ✓ Perfekt für Kinder ab 3 Jahren ➤ Jetzt lesen!',
+  title: 'Gutenachtgeschichte mit Hund: Wuffi und die Schlafschafe | Fluxie',
+  description: 'Beruhigende Hundegeschichte für Kinder ✓ Wuffi lernt stillzusitzen ✓ Einschlafgeschichte mit Hund ab 3 Jahren ✓ 5 Min. Vorlesegeschichte ➤ Jetzt kostenlos lesen!',
   openGraph: {
-    title: 'Wuffi und die Schlafschafe – Lustige Hundegeschichte zum Einschlafen',
-    description: 'Eine lustige Gutenachtgeschichte über Wuffi, den kleinen Hund, der lernt, dass Stillsitzen gar nicht so einfach ist. Perfekt zum Vorlesen!',
+    title: 'Gutenachtgeschichte mit Hund: Wuffi und die Schlafschafe',
+    description: 'Beruhigende Hundegeschichte für Kinder zum Vorlesen. Wuffi lernt, dass Stillsitzen gar nicht so einfach ist. Perfekte Einschlafgeschichte ab 3 Jahren!',
     url: 'https://fluxie.de/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden/wuffi-und-die-schlafschafe',
     siteName: 'Fluxie',
     locale: 'de_DE',
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Wuffi und die Schlafschafe – Lustige Hundegeschichte',
-    description: 'Eine lustige Gutenachtgeschichte über Wuffi, den kleinen Hund, der lernt, dass Stillsitzen gar nicht so einfach ist.',
+    title: 'Gutenachtgeschichte mit Hund: Wuffi und die Schlafschafe',
+    description: 'Beruhigende Hundegeschichte für Kinder zum Vorlesen. Perfekte Einschlafgeschichte ab 3 Jahren!',
     images: ['https://fluxie.de/images/wuffi-schlafschafe-og.jpg']
   },
   robots: {
@@ -57,7 +57,7 @@ export default function WuffiUndDieSchlafschafePage() {
     "datePublished": "2025-01-10",
     "dateModified": "2025-01-10",
     "articleSection": "Gutenachtgeschichten",
-    "keywords": "Gutenachtgeschichte Hund, Wuffi, Hundegeschichte für Kinder, Einschlafgeschichte, Vorlesegeschichte",
+    "keywords": "Gutenachtgeschichte mit Hund, Hundegeschichte für Kinder, Einschlafgeschichte mit Hund, Vorlesegeschichte Hund Kinder, kurze Hundegeschichte zum Vorlesen, Wuffi",
     "wordCount": 450,
     "timeRequired": "PT5M",
     "audience": {
@@ -118,6 +118,61 @@ export default function WuffiUndDieSchlafschafePage() {
     ]
   }
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Ab welchem Alter eignet sich diese Hundegeschichte für Kinder?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Diese Gutenachtgeschichte mit Hund ist perfekt für Kinder ab 3 Jahren geeignet. Die einfache Sprache, die kurze Lesezeit von 5 Minuten und die bildliche Erzählweise machen sie auch für Kindergartenkinder leicht verständlich. Ältere Kinder bis etwa 8 Jahre genießen die Geschichte ebenfalls, besonders wenn sie Hundeliebhaber sind."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wie lange dauert es, diese kurze Hundegeschichte vorzulesen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Die Vorlesegeschichte dauert etwa 5 Minuten in normalem Tempo. Das macht sie ideal als Teil eines Einschlafrituals. Viele Eltern lesen die Geschichte bewusst langsamer und ruhiger vor, um die beruhigende Wirkung zu verstärken – dann dauert es etwa 7-8 Minuten."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Warum helfen Hundegeschichten beim Einschlafen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Einschlafgeschichten mit Hund funktionieren besonders gut, weil Hunde Kindern ein starkes Gefühl von Sicherheit und Geborgenheit vermitteln. Viele Kinder kennen Hunde aus dem eigenen Umfeld oder wünschen sich einen. Die vertrauten Charaktere helfen beim Entspannen. Zusätzlich haben Hundegeschichten für Kinder oft einen vorhersehbaren, beruhigenden Handlungsverlauf ohne beängstigende Elemente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kann ich diese Geschichte auch online kostenlos vorlesen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja! Diese Gutenachtgeschichte mit Hund ist komplett kostenlos auf Fluxie verfügbar. Sie können sie direkt von dieser Seite vorlesen – am Handy, Tablet oder Computer. Perfekt für spontane Vorlesemomente oder wenn das Lieblingsbuch gerade nicht zur Hand ist."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Welche Botschaft vermittelt Wuffi und die Schlafschafe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Diese kurze Hundegeschichte zum Vorlesen vermittelt eine wichtige Lektion: Es ist okay, so zu sein wie man ist. Wuffi lernt, dass er nicht stillsitzen muss, um wertvoll zu sein. Die Geschichte zeigt Kindern auf liebevolle Weise, dass jeder seine eigenen Stärken hat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gibt es weitere Gutenachtgeschichten mit Hunden auf Fluxie?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja! In der Rubrik Gutenachtgeschichten mit Hunden finden Sie weitere Hundegeschichten für Kinder zum kostenlosen Vorlesen. Die Sammlung wird regelmäßig um neue Einschlafgeschichten mit Hund erweitert, die speziell für das Alter 3-8 Jahre entwickelt wurden."
+        }
+      }
+    ]
+  }
+
   return (
     <>
       {/* Schema.org JSON-LD */}
@@ -132,6 +187,10 @@ export default function WuffiUndDieSchlafschafePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
       <div className="container mx-auto px-4 py-12">
@@ -176,7 +235,7 @@ export default function WuffiUndDieSchlafschafePage() {
           {/* Artikel-Header */}
           <header className="mb-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: '#f77f00' }}>
-              🐕💤 Wuffi und die Schlafschafe
+              Gutenachtgeschichte mit Hund: Wuffi und die Schlafschafe
             </h1>
             <div className="flex items-center gap-4 text-sm text-gray-600">
               <span>📖 Lesezeit: 5 Minuten</span>
@@ -307,6 +366,41 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
           </div>
 
+          {/* ★ OUTRO: Warum Hundegeschichten zum Einschlafen perfekt sind */}
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mb-4 text-gray-800">
+              Warum Hundegeschichten perfekt zum Einschlafen sind
+            </h2>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p>
+                <strong>Hundegeschichten für Kinder</strong> wie "Wuffi und die Schlafschafe" sind besonders gut als
+                <strong> Einschlafgeschichten mit Hund</strong> geeignet. Warum? Hunde vermitteln Kindern ein Gefühl
+                von Sicherheit und Geborgenheit – genau das, was sie zum entspannten Einschlafen brauchen.
+              </p>
+              <p>
+                Diese <strong>kurze Hundegeschichte zum Vorlesen</strong> (nur 5 Minuten Lesezeit) kombiniert beruhigende
+                Elemente mit einer sanften Botschaft: Es ist okay, so zu sein wie man ist. Wuffi lernt spielerisch,
+                dass nicht jeder stillsitzen muss – eine wichtige Lektion, die Kinder entspannt ins Traumland begleitet.
+              </p>
+              <p>
+                Als <strong>Vorlesegeschichte für Kinder ab 3 Jahren</strong> eignet sich diese Gutenachtgeschichte mit Hund
+                besonders gut, weil:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Die Sprache einfach und bildlich ist</li>
+                <li>Der Handlungsbogen beruhigend und vorhersehbar verläuft</li>
+                <li>Hunde als Protagonisten Vertrauen schaffen</li>
+                <li>Die Geschichte mit einer positiven, entspannten Stimmung endet</li>
+                <li>Kinder sich mit dem verspielten Wuffi identifizieren können</li>
+              </ul>
+              <p>
+                <strong>Tipp für Eltern:</strong> Lesen Sie diese <strong>Gutenachtgeschichte mit Hund</strong> in ruhigem
+                Tempo vor und betonen Sie die beruhigenden Passagen besonders sanft. Die Geschichte funktioniert auch
+                wunderbar als Ritual vor dem Schlafengehen – Kinder lieben die Wiederholung und finden darin Sicherheit.
+              </p>
+            </div>
+          </div>
+
           {/* ★ PRODUKTBOX mit echtem Bild - NACH der Geschichte */}
           <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
             <div className="flex flex-col md:flex-row items-center gap-6">
@@ -358,6 +452,91 @@ export default function WuffiUndDieSchlafschafePage() {
             >
               ← Zurück zu allen Hundegeschichten
             </a>
+          </div>
+
+          {/* ★ FAQ SECTION für Featured Snippets */}
+          <div className="bg-white rounded-2xl p-8 mb-12 border border-gray-200">
+            <h2 className="text-3xl font-bold mb-8 text-gray-800">
+              Häufig gestellte Fragen zu Gutenachtgeschichten mit Hund
+            </h2>
+            <div className="space-y-6">
+              {/* FAQ 1 */}
+              <div className="border-b border-gray-200 pb-6">
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                  Ab welchem Alter eignet sich diese Hundegeschichte für Kinder?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Diese <strong>Gutenachtgeschichte mit Hund</strong> ist perfekt für Kinder <strong>ab 3 Jahren</strong> geeignet.
+                  Die einfache Sprache, die kurze Lesezeit von 5 Minuten und die bildliche Erzählweise machen sie auch für
+                  Kindergartenkinder leicht verständlich. Ältere Kinder bis etwa 8 Jahre genießen die Geschichte ebenfalls,
+                  besonders wenn sie Hundeliebhaber sind.
+                </p>
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="border-b border-gray-200 pb-6">
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                  Wie lange dauert es, diese kurze Hundegeschichte vorzulesen?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Die <strong>Vorlesegeschichte</strong> dauert etwa <strong>5 Minuten</strong> in normalem Tempo. Das macht sie ideal
+                  als Teil eines Einschlafrituals. Viele Eltern lesen die Geschichte bewusst langsamer und ruhiger vor, um die
+                  beruhigende Wirkung zu verstärken – dann dauert es etwa 7-8 Minuten.
+                </p>
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="border-b border-gray-200 pb-6">
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                  Warum helfen Hundegeschichten beim Einschlafen?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  <strong>Einschlafgeschichten mit Hund</strong> funktionieren besonders gut, weil Hunde Kindern ein starkes Gefühl
+                  von Sicherheit und Geborgenheit vermitteln. Viele Kinder kennen Hunde aus dem eigenen Umfeld oder wünschen sich einen.
+                  Die vertrauten Charaktere helfen beim Entspannen. Zusätzlich haben <strong>Hundegeschichten für Kinder</strong> oft
+                  einen vorhersehbaren, beruhigenden Handlungsverlauf ohne beängstigende Elemente.
+                </p>
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="border-b border-gray-200 pb-6">
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                  Kann ich diese Geschichte auch online kostenlos vorlesen?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Ja! Diese <strong>Gutenachtgeschichte mit Hund</strong> ist <strong>komplett kostenlos</strong> auf Fluxie verfügbar.
+                  Sie können sie direkt von dieser Seite vorlesen – am Handy, Tablet oder Computer. Perfekt für spontane Vorlesemomente
+                  oder wenn das Lieblingsbuch gerade nicht zur Hand ist. Weitere <strong>kostenlose Hundegeschichten</strong> finden Sie
+                  in unserer Kategorie "Gutenachtgeschichten mit Hunden".
+                </p>
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="border-b border-gray-200 pb-6">
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                  Welche Botschaft vermittelt "Wuffi und die Schlafschafe"?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Diese <strong>kurze Hundegeschichte zum Vorlesen</strong> vermittelt eine wichtige Lektion: <strong>Es ist okay,
+                  so zu sein wie man ist.</strong> Wuffi lernt, dass er nicht stillsitzen muss, um wertvoll zu sein. Die Geschichte
+                  zeigt Kindern auf liebevolle Weise, dass jeder seine eigenen Stärken hat. Das beruhigt besonders quirlige Kinder,
+                  die sich manchmal "falsch" fühlen, wenn sie nicht ruhig sein können.
+                </p>
+              </div>
+
+              {/* FAQ 6 */}
+              <div>
+                <h3 className="text-xl font-semibold mb-3" style={{ color: '#f77f00' }}>
+                  Gibt es weitere Gutenachtgeschichten mit Hunden auf Fluxie?
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  Ja! In unserer Rubrik <a href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden" className="font-semibold hover:opacity-80" style={{ color: '#f77f00' }}>
+                  "Gutenachtgeschichten mit Hunden"</a> finden Sie weitere <strong>Hundegeschichten für Kinder</strong> zum kostenlosen
+                  Vorlesen. Wir erweitern die Sammlung regelmäßig um neue <strong>Einschlafgeschichten mit Hund</strong>, die speziell
+                  für das Alter 3-8 Jahre entwickelt wurden. Schauen Sie gerne regelmäßig vorbei!
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Verwandte Geschichten */}
