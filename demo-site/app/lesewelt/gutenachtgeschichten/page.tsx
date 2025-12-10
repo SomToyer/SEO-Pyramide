@@ -248,42 +248,6 @@ export default function GutenachtgeschichtenPage() {
             </div>
           </section>
 
-          {/* Warum Gutenachtgeschichten wichtig sind */}
-          <section className="mb-12 bg-white rounded-xl p-8 shadow-md">
-            <h2 className="text-3xl font-bold mb-6 text-gray-800">
-              Warum sind Gutenachtgeschichten so wichtig?
-            </h2>
-            <div className="prose prose-lg max-w-none text-gray-700">
-              <ul className="space-y-3">
-                <li className="flex items-start">
-                  <span className="text-2xl mr-3">💤</span>
-                  <span><strong>Beruhigende Wirkung:</strong> Gutenachtgeschichten helfen Kindern,
-                  vom aufregenden Tag abzuschalten und zur Ruhe zu kommen.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-2xl mr-3">❤️</span>
-                  <span><strong>Bindung stärken:</strong> Das gemeinsame Vorleseritual schafft
-                  wertvolle Nähe zwischen Eltern und Kind.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-2xl mr-3">📚</span>
-                  <span><strong>Sprachentwicklung:</strong> Regelmäßiges Vorlesen fördert den
-                  Wortschatz und die Sprachkompetenz.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-2xl mr-3">✨</span>
-                  <span><strong>Fantasie anregen:</strong> Geschichten vor dem Einschlafen
-                  regen die Vorstellungskraft an und fördern kreatives Denken.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-2xl mr-3">😴</span>
-                  <span><strong>Besserer Schlaf:</strong> Das abendliche Vorleseritual signalisiert
-                  dem Körper, dass es Zeit ist zur Ruhe zu kommen.</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
           {/* Beliebte Geschichten - NEU! */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
@@ -346,6 +310,42 @@ export default function GutenachtgeschichtenPage() {
                   <span className="mr-3">Bald verfügbar</span>
                 </div>
               </div>
+            </div>
+          </section>
+
+          {/* Warum Gutenachtgeschichten wichtig sind */}
+          <section className="mb-12 bg-white rounded-xl p-8 shadow-md">
+            <h2 className="text-3xl font-bold mb-6 text-gray-800">
+              Warum sind Gutenachtgeschichten so wichtig?
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <ul className="space-y-3">
+                <li className="flex items-start">
+                  <span className="text-2xl mr-3">💤</span>
+                  <span><strong>Beruhigende Wirkung:</strong> Gutenachtgeschichten helfen Kindern,
+                  vom aufregenden Tag abzuschalten und zur Ruhe zu kommen.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-2xl mr-3">❤️</span>
+                  <span><strong>Bindung stärken:</strong> Das gemeinsame Vorleseritual schafft
+                  wertvolle Nähe zwischen Eltern und Kind.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-2xl mr-3">📚</span>
+                  <span><strong>Sprachentwicklung:</strong> Regelmäßiges Vorlesen fördert den
+                  Wortschatz und die Sprachkompetenz.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-2xl mr-3">✨</span>
+                  <span><strong>Fantasie anregen:</strong> Geschichten vor dem Einschlafen
+                  regen die Vorstellungskraft an und fördern kreatives Denken.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-2xl mr-3">😴</span>
+                  <span><strong>Besserer Schlaf:</strong> Das abendliche Vorleseritual signalisiert
+                  dem Körper, dass es Zeit ist zur Ruhe zu kommen.</span>
+                </li>
+              </ul>
             </div>
           </section>
 
