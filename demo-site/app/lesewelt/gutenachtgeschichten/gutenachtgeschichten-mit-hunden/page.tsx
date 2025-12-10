@@ -167,19 +167,19 @@ export default function GutenachtgeschichtenMitHundenPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/" className="hover:text-purple-600">Home</a>
+                <a href="/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt" className="hover:text-purple-600">Lesewelt</a>
+                <a href="/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt/gutenachtgeschichten" className="hover:text-purple-600">
+                <a href="/lesewelt/gutenachtgeschichten" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>
                   Gutenachtgeschichten
                 </a>
               </li>
@@ -246,7 +246,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
                       <div>⏱️ 5 Min. Lesezeit</div>
                       <div>😴 Perfekt zum Einschlafen</div>
                     </div>
-                    <span className="text-purple-600 font-medium group-hover:underline">
+                    <span className="font-medium group-hover:underline" style={{ color: '#f77f00' }}>
                       Jetzt lesen →
                     </span>
                   </div>
@@ -301,7 +301,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
           </section>
 
           {/* ★ PRODUKTBOX - Position 4 (nach Stories!) */}
-          <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-12 border-2 border-purple-200 shadow-lg">
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -318,7 +318,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-purple-700 mb-3">
+                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
                   Tiergeschichten interaktiv erleben mit Luna
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -327,7 +327,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
                 </p>
                 <a
                   href="https://fluxie.de/produkt/luna-die-loewin-mit-der-leisen-stimme/"
-                  className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+                  className="inline-block bg-fluxie-orange hover:bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -471,8 +471,8 @@ export default function GutenachtgeschichtenMitHundenPage() {
           </section>
 
           {/* Tipps-Sektion (kompakt) */}
-          <section className="mb-12 bg-purple-50 rounded-xl p-8 border-2 border-purple-100">
-            <h2 className="text-2xl font-bold mb-4 text-purple-800">
+          <section className="mb-12 bg-orange-50 rounded-xl p-8 border-2 border-orange-100">
+            <h2 className="text-2xl font-bold mb-4" style={{ color: '#f77f00' }}>
               💡 Tipps zum Vorlesen von Hundegeschichten
             </h2>
             <ul className="space-y-2 text-gray-700">
@@ -492,7 +492,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
 
             <div className="space-y-6">
               {/* Frage 1 */}
-              <div className="border-l-4 border-purple-500 pl-4">
+              <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
                   Warum sind Hundegeschichten gut zum Einschlafen?
                 </h3>
@@ -505,7 +505,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
               </div>
 
               {/* Frage 2 */}
-              <div className="border-l-4 border-purple-500 pl-4">
+              <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
                   Ab welchem Alter sind Hundegeschichten geeignet?
                 </h3>
@@ -517,7 +517,7 @@ export default function GutenachtgeschichtenMitHundenPage() {
               </div>
 
               {/* Frage 3 */}
-              <div className="border-l-4 border-purple-500 pl-4">
+              <div className="border-l-4 pl-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-2 text-gray-800">
                   Wie lange dauert das Vorlesen einer Hundegeschichte?
                 </h3>

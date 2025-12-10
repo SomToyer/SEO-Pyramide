@@ -126,13 +126,13 @@ export default function GutenachtgeschichtenPage() {
           <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
             <ol className="flex items-center space-x-2">
               <li>
-                <a href="/" className="hover:text-purple-600">Home</a>
+                <a href="/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
               </li>
               <li>
-                <a href="/lesewelt" className="hover:text-purple-600">Lesewelt</a>
+                <a href="/lesewelt" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Lesewelt</a>
               </li>
               <li aria-hidden="true">
                 <span className="mx-2">›</span>
@@ -145,7 +145,7 @@ export default function GutenachtgeschichtenPage() {
 
           {/* Kategorie-Header */}
           <header className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-purple-600">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#f77f00' }}>
               🌙 Gutenachtgeschichten für Kinder: Zauberhafte Einschlafgeschichten
             </h1>
 
@@ -167,7 +167,7 @@ export default function GutenachtgeschichtenPage() {
           </header>
 
           {/* Fluxie Produkt-Box */}
-          <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-12 border-2 border-purple-200 shadow-lg">
+          <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
                 <a
@@ -184,7 +184,7 @@ export default function GutenachtgeschichtenPage() {
                 </a>
               </div>
               <div className="flex-1">
-                <h3 className="text-2xl font-bold text-purple-700 mb-3">
+                <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
                   Gutenachtgeschichten interaktiv erleben
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
@@ -194,7 +194,7 @@ export default function GutenachtgeschichtenPage() {
                 </p>
                 <a
                   href="https://fluxie.de/produkt/pionierset/"
-                  className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+                  className="inline-block bg-fluxie-orange hover:bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -216,7 +216,7 @@ export default function GutenachtgeschichtenPage() {
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
                   <div className="text-5xl mb-3">🐕</div>
-                  <h3 className="text-xl font-bold mb-2 text-purple-600 group-hover:text-purple-700">
+                  <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
                     Gutenachtgeschichten mit Hunden
                   </h3>
                   <p className="text-gray-600">
@@ -241,7 +241,7 @@ export default function GutenachtgeschichtenPage() {
             <div className="text-center">
               <a
                 href="/lesewelt"
-                className="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+                className="inline-block bg-fluxie-orange hover:bg-amber-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Alle Geschichten entdecken →
               </a>
@@ -306,7 +306,7 @@ export default function GutenachtgeschichtenPage() {
                       className="w-20 h-20 object-cover rounded-lg"
                     />
                   </div>
-                  <h3 className="text-lg font-bold mb-2 text-purple-600 group-hover:text-purple-700">
+                  <h3 className="text-lg font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
                     Wuffi und die Schlafschafe
                   </h3>
                   <p className="text-sm text-gray-600 mb-3">
@@ -350,8 +350,8 @@ export default function GutenachtgeschichtenPage() {
           </section>
 
           {/* Tipps für das Vorlesen - NACH OBEN VERSCHOBEN! */}
-          <section className="mb-12 bg-purple-50 rounded-xl p-8 border-2 border-purple-100">
-            <h2 className="text-2xl font-bold mb-4 text-purple-800">
+          <section className="mb-12 bg-orange-50 rounded-xl p-8 border-2 border-orange-100">
+            <h2 className="text-2xl font-bold mb-4" style={{ color: '#f77f00' }}>
               💡 Tipps für das abendliche Vorlesen
             </h2>
             <ul className="space-y-2 text-gray-700">
@@ -427,7 +427,7 @@ export default function GutenachtgeschichtenPage() {
           </section>
 
           {/* Testimonial */}
-          <section className="mb-12 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-8 border-2 border-purple-200">
+          <section className="mb-12 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl p-8 border-2" style={{ borderColor: '#f77f00' }}>
             <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">
               Was Eltern über unsere Gutenachtgeschichten sagen
             </h2>
@@ -450,7 +450,7 @@ export default function GutenachtgeschichtenPage() {
               Häufig gestellte Fragen zu Gutenachtgeschichten
             </h2>
             <div className="space-y-6">
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-purple-600">
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Wie lang sollte eine Gutenachtgeschichte sein?
                 </h3>
@@ -462,7 +462,7 @@ export default function GutenachtgeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-blue-600">
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Ab welchem Alter sind Gutenachtgeschichten sinnvoll?
                 </h3>
@@ -474,7 +474,7 @@ export default function GutenachtgeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-pink-600">
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Können Gutenachtgeschichten Albträume verhindern?
                 </h3>
@@ -486,7 +486,7 @@ export default function GutenachtgeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-green-600">
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Was tun, wenn mein Kind immer "noch eine Geschichte" möchte?
                 </h3>
@@ -498,7 +498,7 @@ export default function GutenachtgeschichtenPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-yellow-600">
+              <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   Sollte ich immer dieselbe Geschichte vorlesen?
                 </h3>
