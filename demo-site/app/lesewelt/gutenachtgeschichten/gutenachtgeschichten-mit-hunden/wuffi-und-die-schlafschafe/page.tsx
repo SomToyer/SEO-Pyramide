@@ -246,6 +246,15 @@ export default function WuffiUndDieSchlafschafePage() {
             </div>
           </header>
 
+          {/* Teaser */}
+          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg" style={{ borderLeftColor: '#f77f00' }}>
+            <p className="text-lg text-gray-700 italic leading-relaxed">
+              Wuffi, der kleine zottelige Hund, will der beste Schlafschaf-Champion werden.
+              Doch Stillsitzen ist gar nicht so einfach! Eine lustige und beruhigende
+              Gutenachtgeschichte über einen quirligen Hund und seine Schaf-Freunde.
+            </p>
+          </div>
+
           {/* ★ Story-Bild (wie wunschturmkinder) */}
           <div className="mb-8 rounded-2xl overflow-hidden shadow-lg max-w-sm mx-auto">
             <img
@@ -256,15 +265,6 @@ export default function WuffiUndDieSchlafschafePage() {
               height={600}
               loading="eager"
             />
-          </div>
-
-          {/* Teaser */}
-          <div className="bg-orange-50 border-l-4 p-6 mb-8 rounded-r-lg" style={{ borderLeftColor: '#f77f00' }}>
-            <p className="text-lg text-gray-700 italic leading-relaxed">
-              Wuffi, der kleine zottelige Hund, will der beste Schlafschaf-Champion werden.
-              Doch Stillsitzen ist gar nicht so einfach! Eine lustige und beruhigende
-              Gutenachtgeschichte über einen quirligen Hund und seine Schaf-Freunde.
-            </p>
           </div>
 
           {/* Story-Text */}
@@ -366,42 +366,7 @@ export default function WuffiUndDieSchlafschafePage() {
             </p>
           </div>
 
-          {/* ★ OUTRO: Warum Hundegeschichten zum Einschlafen perfekt sind */}
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4" style={{ borderLeftColor: '#f77f00' }}>
-            <h2 className="text-2xl font-bold mb-4 text-gray-800">
-              Warum Hundegeschichten perfekt zum Einschlafen sind
-            </h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                <strong>Hundegeschichten für Kinder</strong> wie "Wuffi und die Schlafschafe" sind besonders gut als
-                <strong> Einschlafgeschichten mit Hund</strong> geeignet. Warum? Hunde vermitteln Kindern ein Gefühl
-                von Sicherheit und Geborgenheit – genau das, was sie zum entspannten Einschlafen brauchen.
-              </p>
-              <p>
-                Diese <strong>kurze Hundegeschichte zum Vorlesen</strong> (nur 5 Minuten Lesezeit) kombiniert beruhigende
-                Elemente mit einer sanften Botschaft: Es ist okay, so zu sein wie man ist. Wuffi lernt spielerisch,
-                dass nicht jeder stillsitzen muss – eine wichtige Lektion, die Kinder entspannt ins Traumland begleitet.
-              </p>
-              <p>
-                Als <strong>Vorlesegeschichte für Kinder ab 3 Jahren</strong> eignet sich diese Gutenachtgeschichte mit Hund
-                besonders gut, weil:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Die Sprache einfach und bildlich ist</li>
-                <li>Der Handlungsbogen beruhigend und vorhersehbar verläuft</li>
-                <li>Hunde als Protagonisten Vertrauen schaffen</li>
-                <li>Die Geschichte mit einer positiven, entspannten Stimmung endet</li>
-                <li>Kinder sich mit dem verspielten Wuffi identifizieren können</li>
-              </ul>
-              <p>
-                <strong>Tipp für Eltern:</strong> Lesen Sie diese <strong>Gutenachtgeschichte mit Hund</strong> in ruhigem
-                Tempo vor und betonen Sie die beruhigenden Passagen besonders sanft. Die Geschichte funktioniert auch
-                wunderbar als Ritual vor dem Schlafengehen – Kinder lieben die Wiederholung und finden darin Sicherheit.
-              </p>
-            </div>
-          </div>
-
-          {/* ★ PRODUKTBOX mit echtem Bild - NACH der Geschichte */}
+          {/* ★ PRODUKTBOX mit echtem Bild - Direkt nach der Geschichte */}
           <div className="bg-gradient-to-r from-orange-50 to-yellow-50 rounded-2xl p-8 mb-12 border-2 shadow-lg" style={{ borderColor: '#f77f00' }}>
             <div className="flex flex-col md:flex-row items-center gap-6">
               <div className="flex-shrink-0">
@@ -440,6 +405,41 @@ export default function WuffiUndDieSchlafschafePage() {
                   Pionierset entdecken →
                 </a>
               </div>
+            </div>
+          </div>
+
+          {/* ★ OUTRO: Warum Hundegeschichten zum Einschlafen perfekt sind */}
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-12 border-l-4" style={{ borderLeftColor: '#f77f00' }}>
+            <h2 className="text-2xl font-bold mb-4 text-gray-800">
+              Warum Hundegeschichten perfekt zum Einschlafen sind
+            </h2>
+            <div className="space-y-4 text-gray-700 leading-relaxed">
+              <p>
+                <strong>Hundegeschichten für Kinder</strong> wie "Wuffi und die Schlafschafe" sind besonders gut als
+                <strong> Einschlafgeschichten mit Hund</strong> geeignet. Warum? Hunde vermitteln Kindern ein Gefühl
+                von Sicherheit und Geborgenheit – genau das, was sie zum entspannten Einschlafen brauchen.
+              </p>
+              <p>
+                Diese <strong>kurze Hundegeschichte zum Vorlesen</strong> (nur 5 Minuten Lesezeit) kombiniert beruhigende
+                Elemente mit einer sanften Botschaft: Es ist okay, so zu sein wie man ist. Wuffi lernt spielerisch,
+                dass nicht jeder stillsitzen muss – eine wichtige Lektion, die Kinder entspannt ins Traumland begleitet.
+              </p>
+              <p>
+                Als <strong>Vorlesegeschichte für Kinder ab 3 Jahren</strong> eignet sich diese Gutenachtgeschichte mit Hund
+                besonders gut, weil:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Die Sprache einfach und bildlich ist</li>
+                <li>Der Handlungsbogen beruhigend und vorhersehbar verläuft</li>
+                <li>Hunde als Protagonisten Vertrauen schaffen</li>
+                <li>Die Geschichte mit einer positiven, entspannten Stimmung endet</li>
+                <li>Kinder sich mit dem verspielten Wuffi identifizieren können</li>
+              </ul>
+              <p>
+                <strong>Tipp für Eltern:</strong> Lesen Sie diese <strong>Gutenachtgeschichte mit Hund</strong> in ruhigem
+                Tempo vor und betonen Sie die beruhigenden Passagen besonders sanft. Die Geschichte funktioniert auch
+                wunderbar als Ritual vor dem Schlafengehen – Kinder lieben die Wiederholung und finden darin Sicherheit.
+              </p>
             </div>
           </div>
 
