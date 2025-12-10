@@ -33,15 +33,17 @@ export default function LeseweltPage() {
             </div>
           </a>
 
-          <div className="bg-gray-100 rounded-xl p-6 opacity-60">
-            <div className="text-5xl mb-3">✨</div>
-            <h3 className="text-xl font-bold mb-2 text-gray-600">
-              Weitere Kategorien folgen...
-            </h3>
-            <p className="text-gray-500">
-              Bald gibt es hier mehr Geschichten!
-            </p>
-          </div>
+          <a href="/lesewelt/abenteuergeschichten" className="group">
+            <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
+              <div className="text-5xl mb-3">⚔️</div>
+              <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                Abenteuergeschichten
+              </h3>
+              <p className="text-gray-600">
+                Spannende Geschichten für mutige Entdecker und kleine Helden
+              </p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
