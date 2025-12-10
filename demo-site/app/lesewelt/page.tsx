@@ -4,13 +4,13 @@ export default function LeseweltPage() {
       <div className="max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-purple-600">Home</a>
+          <a href="/" className="hover:opacity-80 transition" style={{ color: '#f77f00' }}>Home</a>
           <span className="mx-2">›</span>
           <span>Lesewelt</span>
         </nav>
 
         {/* Hero */}
-        <h1 className="text-4xl font-bold mb-4 text-purple-600">
+        <h1 className="text-4xl font-bold mb-4" style={{ color: '#f77f00' }}>
           📚 Lesewelt – Entdecke unsere Geschichten
         </h1>
         <p className="text-lg text-gray-600 mb-12">
@@ -24,7 +24,7 @@ export default function LeseweltPage() {
           <a href="/lesewelt/gutenachtgeschichten" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
               <div className="text-5xl mb-3">🌙</div>
-              <h3 className="text-xl font-bold mb-2 text-purple-600 group-hover:text-purple-700">
+              <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
                 Gutenachtgeschichten
               </h3>
               <p className="text-gray-600">
