@@ -3,7 +3,7 @@ name: Deploy to Netcup via SFTP
 on:
   push:
     branches:
-      - main  # Oder ändere zu deinem Default-Branch (z.B. 'master', 'develop')
+      - claude/plan-seo-structure-01QZFruPp9PPTeauLDF2Q3Fk  # Default Branch
 
 jobs:
   build-and-deploy:
