@@ -178,7 +178,7 @@ export default function GutenachtgeschichtenPage() {
                 >
                   <img
                     src="https://fluxie.de/wp-content/uploads/2025/08/Product_shots_starterset.png"
-                    alt="Fluxie Pionierset - Starter-Set mit Lesekarten"
+                    alt="Fluxie Starter-Set mit Lesekarten"
                     className="w-48 h-48 object-contain hover:scale-105 transition-transform duration-300"
                   />
                 </a>

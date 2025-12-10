@@ -378,7 +378,7 @@ export default function WuffiUndDieSchlafschafePage() {
                 >
                   <img
                     src="https://fluxie.de/wp-content/uploads/2025/08/Product_shots_starterset.png"
-                    alt="Fluxie Pionierset - Starter-Set mit 3 Lesekarten"
+                    alt="Fluxie Starter-Set mit 3 Lesekarten"
                     className="w-56 h-56 object-contain hover:scale-105 transition-transform duration-300"
                   />
                 </a>
@@ -388,7 +388,7 @@ export default function WuffiUndDieSchlafschafePage() {
                   Geschichten wie Wuffi interaktiv erleben
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Mit dem Fluxie Pionierset können Kinder Geschichten eigenständig erleben –
+                  Mit dem Fluxie Starter-Set können Kinder Geschichten eigenständig erleben –
                   wie Tonies, aber fürs Lesen! Perfekt für Leseanfänger ab 5 Jahren.
                 </p>
                 <div className="flex items-center gap-4 text-sm text-gray-600 mb-4">
@@ -402,7 +402,7 @@ export default function WuffiUndDieSchlafschafePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Pionierset entdecken →
+                  Starter-Set entdecken →
                 </a>
               </div>
             </div>
