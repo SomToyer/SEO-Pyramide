@@ -240,22 +240,28 @@ export default function AbenteuergeschichtenPage() {
               Beliebte Abenteuergeschichten
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              Bald findest du hier die beliebtesten Abenteuergeschichten für kleine Entdecker:
+              Diese Geschichten werden von kleinen Abenteurern besonders geliebt:
             </p>
             <div className="grid md:grid-cols-3 gap-6">
-              {/* Placeholder Card 1 */}
-              <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-4xl mb-4 text-center">⚔️✨</div>
-                <h3 className="text-lg font-bold mb-2 text-gray-600">
-                  Spannende Abenteuer folgen
-                </h3>
-                <p className="text-sm text-gray-500 mb-3">
-                  Bald findest du hier aufregende Geschichten für mutige Entdecker.
-                </p>
-                <div className="text-xs text-gray-400">
-                  <span className="mr-3">Demnächst...</span>
-                </div>
-              </div>
+              {/* Story Card 1 - Pete */}
+              <a
+                href="/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei"
+                className="group block"
+              >
+                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
+                  <div className="text-5xl mb-4 text-center">🦜🏴‍☠️</div>
+                  <h3 className="text-lg font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                    Pete der lachende Piraten Papagei
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Eine lustige Piratengeschichte über Freundschaft und wahre Schätze.
+                  </p>
+                  <div className="text-xs text-gray-500">
+                    <span className="mr-3">👶 Ab 4 Jahren</span>
+                    <span>⏱️ 8 Min.</span>
+                  </div>
+                </article>
+              </a>
 
               {/* Placeholder Card 2 */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
