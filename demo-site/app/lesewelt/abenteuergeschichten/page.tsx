@@ -202,15 +202,20 @@ export default function AbenteuergeschichtenPage() {
               Abenteuergeschichten nach Themen
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
-              <div className="bg-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-5xl mb-3">🏴‍☠️</div>
-                <h3 className="text-xl font-bold mb-2 text-gray-600">
-                  Piraten-Abenteuer
-                </h3>
-                <p className="text-gray-500">
-                  Spannende Geschichten über mutige Seefahrer und versteckte Schätze – bald verfügbar!
-                </p>
-              </div>
+              <a
+                href="/lesewelt/abenteuergeschichten/piraten-abenteuer"
+                className="group"
+              >
+                <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
+                  <div className="text-5xl mb-3">🏴‍☠️</div>
+                  <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
+                    Piraten-Abenteuer
+                  </h3>
+                  <p className="text-gray-600">
+                    Spannende Geschichten über mutige Seefahrer, geheimnisvolle Schätze und lustige Erlebnisse auf hoher See
+                  </p>
+                </article>
+              </a>
 
               <div className="bg-gray-100 rounded-xl p-6 opacity-60">
                 <div className="text-5xl mb-3">🏰</div>
