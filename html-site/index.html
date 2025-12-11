@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fluxie Lesewelt - Pure HTML/CSS Demo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container py-12">
+    <div class="max-w-4xl">
+      <h1 style="color: #f77f00;">🎯 Fluxie Lesewelt - Pure HTML/CSS Version</h1>
+
+      <div class="content-section">
+        <h2>Willkommen zur reinen HTML/CSS Version!</h2>
+        <p class="text-lg">
+          Diese Version der Fluxie Lesewelt ist <strong>komplett ohne JavaScript, React oder Next.js</strong> erstellt.
+          Nur pures HTML und CSS!
+        </p>
+
+        <h3>✅ Vorteile</h3>
+        <ul class="space-y-2">
+          <li>⚡ <strong>Extrem schnell</strong> - Keine JavaScript-Ladezeit</li>
+          <li>🔍 <strong>SEO-perfekt</strong> - Sofort von Google indexierbar</li>
+          <li>💰 <strong>Günstiges Hosting</strong> - Funktioniert überall</li>
+          <li>📱 <strong>Mobile-optimiert</strong> - Responsive Design</li>
+          <li>🎯 <strong>100/100 PageSpeed</strong> - Maximale Performance</li>
+        </ul>
+
+        <h3>❌ Nachteile</h3>
+        <ul class="space-y-2">
+          <li>⚠️ <strong>Wartung aufwändig</strong> - Header/Footer in jeder Datei dupliziert</li>
+          <li>⚠️ <strong>Keine Komponenten</strong> - Code-Wiederholung</li>
+          <li>⚠️ <strong>Manuelle Änderungen</strong> - Bei 100+ Seiten nicht praktikabel</li>
+        </ul>
+      </div>
+
+      <div class="product-box">
+        <h2 style="color: #f77f00;">📁 Verfügbare Seiten</h2>
+        <div class="grid grid-cols-2" style="margin-top: 1.5rem;">
+          <a href="lesewelt/index.html" class="card-link">
+            <div class="card">
+              <div class="emoji-lg">📚</div>
+              <h3 style="color: #f77f00;">Lesewelt Hauptseite</h3>
+              <p>Übersicht aller Kategorien</p>
+            </div>
+          </a>
+
+          <a href="lesewelt/gutenachtgeschichten/index.html" class="card-link">
+            <div class="card">
+              <div class="emoji-lg">🌙</div>
+              <h3 style="color: #f77f00;">Gutenachtgeschichten</h3>
+              <p>Kategorie mit Geschichten</p>
+            </div>
+          </a>
+
+          <a href="lesewelt/abenteuergeschichten/index.html" class="card-link">
+            <div class="card">
+              <div class="emoji-lg">⚔️</div>
+              <h3 style="color: #f77f00;">Abenteuergeschichten</h3>
+              <p>Spannende Abenteuer</p>
+            </div>
+          </a>
+
+          <div class="placeholder-card">
+            <div class="emoji-lg opacity-50">📖</div>
+            <h3 class="text-gray-600">Weitere Seiten</h3>
+            <p class="text-gray-500">Story-Seiten folgen...</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tips-box">
+        <h3 style="color: #f77f00;">💡 Lokaler Test</h3>
+        <p>So kannst du die Seite lokal testen:</p>
+        <pre style="background: white; padding: 1rem; border-radius: 0.5rem; overflow-x: auto;">
+cd html-site
+python3 -m http.server 8000
+# Öffne http://localhost:8000
+        </pre>
+      </div>
+
+      <div class="content-section">
+        <h2>📊 Performance-Vergleich</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+          <tr style="border-bottom: 2px solid var(--gray-200);">
+            <th style="padding: 0.75rem; text-align: left;">Aspekt</th>
+            <th style="padding: 0.75rem; text-align: left;">Next.js</th>
+            <th style="padding: 0.75rem; text-align: left;">Pure HTML</th>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--gray-200);">
+            <td style="padding: 0.75rem;">Performance</td>
+            <td style="padding: 0.75rem;">⭐⭐⭐⭐</td>
+            <td style="padding: 0.75rem;">⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--gray-200);">
+            <td style="padding: 0.75rem;">Wartbarkeit</td>
+            <td style="padding: 0.75rem;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 0.75rem;">⭐⭐</td>
+          </tr>
+          <tr style="border-bottom: 1px solid var(--gray-200);">
+            <td style="padding: 0.75rem;">Entwicklungszeit</td>
+            <td style="padding: 0.75rem;">⭐⭐⭐⭐⭐</td>
+            <td style="padding: 0.75rem;">⭐⭐</td>
+          </tr>
+          <tr>
+            <td style="padding: 0.75rem;">Hosting-Kosten</td>
+            <td style="padding: 0.75rem;">⭐⭐⭐⭐</td>
+            <td style="padding: 0.75rem;">⭐⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="bg-gradient-orange" style="padding: 2rem; border-radius: 1rem; border: 2px solid var(--fluxie-orange); margin-top: 3rem;">
+        <h2 style="color: #f77f00;">🎯 Fazit</h2>
+        <p style="font-size: 1.125rem; margin-bottom: 1rem;">
+          <strong>Für die Fluxie SEO-Pyramide mit 100+ Seiten empfehlen wir:</strong>
+        </p>
+        <p style="font-size: 1.125rem;">
+          ✅ <strong>Next.js mit Static Export</strong> - Beste Wartbarkeit + Performance wie HTML
+        </p>
+        <p style="margin-top: 1rem;">
+          Diese Pure-HTML-Version zeigt aber: <strong>Es funktioniert auch komplett ohne Framework!</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
