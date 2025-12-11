@@ -4,13 +4,13 @@ export default function BlogPage() {
       <div className="max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600">
-          <a href="/" className="hover:text-indigo-600">Home</a>
+          <a href="/" className="hover:text-fluxie-orange">Home</a>
           <span className="mx-2">›</span>
           <span>Blog</span>
         </nav>
 
         {/* Hero */}
-        <h1 className="text-4xl font-bold mb-4 text-indigo-600">
+        <h1 className="text-4xl font-bold mb-4 text-fluxie-orange">
           ✍️ Fluxie Blog – Tipps für Leseförderung
         </h1>
         <p className="text-lg text-gray-600 mb-12">
@@ -19,13 +19,13 @@ export default function BlogPage() {
         </p>
 
         {/* Fluxie-Produkt-Box */}
-        <div className="bg-gradient-to-r from-indigo-100 to-purple-100 rounded-xl p-6 mb-12 border-2 border-indigo-200">
+        <div className="bg-gradient-to-r from-orange-100 to-amber-100 rounded-xl p-6 mb-12 border-2 border-fluxie-orange">
           <div className="flex items-start gap-6">
             <div className="bg-white p-4 rounded-lg shadow-md flex-shrink-0">
               <div className="text-6xl">🎴</div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 text-indigo-600">
+              <h3 className="text-xl font-bold mb-2 text-fluxie-orange">
                 Leseförderung mit Fluxie
               </h3>
               <p className="text-gray-700 mb-4">
@@ -33,7 +33,7 @@ export default function BlogPage() {
               </p>
               <a
                 href="https://fluxie.de/produkt/pionierset/"
-                className="inline-block bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition font-medium"
+                className="inline-block bg-fluxie-orange text-white px-6 py-2 rounded-lg hover:bg-amber-600 transition font-medium"
               >
                 Jetzt entdecken →
               </a>
@@ -47,7 +47,7 @@ export default function BlogPage() {
           <a href="/blog/vorlesen" className="group">
             <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1">
               <div className="text-5xl mb-3">📖</div>
-              <h3 className="text-xl font-bold mb-2 text-indigo-600 group-hover:text-indigo-700">
+              <h3 className="text-xl font-bold mb-2 text-fluxie-orange group-hover:text-amber-600">
                 Vorlesen
               </h3>
               <p className="text-gray-600">

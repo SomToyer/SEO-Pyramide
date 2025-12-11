@@ -13,30 +13,63 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body>
-        <nav className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-lg">
+      <body style={{ backgroundColor: '#fff8f0' }}>
+        {/* Header mit Fluxie Branding */}
+        <nav style={{ backgroundColor: '#003049' }} className="text-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
-              <a href="/" className="text-2xl font-bold hover:text-purple-200 transition">
-                🏠 Fluxie
+              {/* Fluxie Logo */}
+              <a href="/" className="flex items-center hover:opacity-80 transition">
+                <img
+                  src="https://fluxie.de/wp-content/uploads/2025/08/fluxietopleft.png"
+                  alt="Fluxie Logo"
+                  className="h-12"
+                  style={{ height: '48px', width: 'auto' }}
+                />
               </a>
+
+              {/* Navigation Links */}
               <div className="flex gap-6">
-                <a href="/lesewelt" className="hover:text-purple-200 transition font-medium">
-                  📚 Lesewelt
+                <a
+                  href="/lesewelt"
+                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
+                >
+                  <span>📚</span>
+                  <span>Lesewelt</span>
                 </a>
-                <a href="/blog" className="hover:text-purple-200 transition font-medium">
-                  ✍️ Blog
+                <a
+                  href="/blog"
+                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
+                >
+                  <span>✍️</span>
+                  <span>Blog</span>
+                </a>
+                <a
+                  href="https://fluxie.de/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:opacity-80 transition font-medium text-white flex items-center gap-2"
+                >
+                  <span>🛒</span>
+                  <span>Shop</span>
                 </a>
               </div>
             </div>
           </div>
         </nav>
-        <main className="min-h-screen bg-gray-50">
+
+        {/* Main Content mit Custom Background */}
+        <main className="min-h-screen" style={{ backgroundColor: '#fff8f0' }}>
           {children}
         </main>
-        <footer className="bg-gray-800 text-white py-8 mt-12">
-          <div className="container mx-auto px-4 text-center">
-            <p>© 2025 Fluxie - Interaktive Lesekarten für Kinder</p>
+
+        {/* Footer mit Fluxie Branding */}
+        <footer style={{ backgroundColor: '#003049' }} className="text-white py-8 mt-12">
+          <div className="container mx-auto px-4">
+            <div className="text-center">
+              <p className="mb-2 font-medium">© 2025 Fluxie - Interaktive Lesekarten für Kinder</p>
+              <p className="text-sm opacity-80">Wie Tonies, aber fürs Lesen</p>
+            </div>
           </div>
         </footer>
       </body>

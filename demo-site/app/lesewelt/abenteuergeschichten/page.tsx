@@ -1,62 +1,55 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Gutenachtgeschichten für Kinder – Zum Vorlesen & Einschlafen | Fluxie',
-  description: 'Gutenachtgeschichten für Kinder von Fluxie ✓ Zauberhafte Einschlafgeschichten ✓ Perfekt zum Vorlesen ✓ Für süße Träume ➤ Jetzt entdecken!',
+  title: 'Abenteuergeschichten für Kinder – Spannende Geschichten zum Vorlesen | Fluxie',
+  description: 'Abenteuergeschichten für Kinder von Fluxie ✓ Spannende Erlebnisse ✓ Perfekt zum Vorlesen ✓ Für mutige Entdecker ➤ Jetzt entdecken!',
   openGraph: {
-    title: 'Gutenachtgeschichten für Kinder – Zum Vorlesen & Einschlafen | Fluxie',
-    description: 'Entdecke zauberhafte Gutenachtgeschichten für Kinder. Beruhigende Vorlesegeschichten, die sanft in den Schlaf begleiten. Kostenlos lesen!',
-    url: 'https://fluxie.de/lesewelt/gutenachtgeschichten',
+    title: 'Abenteuergeschichten für Kinder – Spannende Geschichten zum Vorlesen | Fluxie',
+    description: 'Entdecke spannende Abenteuergeschichten für Kinder. Aufregende Vorlesegeschichten, die Mut und Entdeckergeist fördern. Kostenlos lesen!',
+    url: 'https://fluxie.de/lesewelt/abenteuergeschichten',
     siteName: 'Fluxie',
     locale: 'de_DE',
     type: 'website',
     images: [
       {
-        url: 'https://fluxie.de/images/gutenachtgeschichten-og.jpg',
+        url: 'https://fluxie.de/images/abenteuergeschichten-og.jpg',
         width: 1200,
         height: 630,
-        alt: 'Gutenachtgeschichten für Kinder'
+        alt: 'Abenteuergeschichten für Kinder'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gutenachtgeschichten für Kinder – Zum Vorlesen & Einschlafen',
-    description: 'Gutenachtgeschichten für Kinder ✓ Zauberhafte Einschlafgeschichten ✓ Perfekt zum Vorlesen',
-    images: ['https://fluxie.de/images/gutenachtgeschichten-og.jpg']
+    title: 'Abenteuergeschichten für Kinder – Spannende Geschichten zum Vorlesen',
+    description: 'Abenteuergeschichten für Kinder ✓ Spannende Erlebnisse ✓ Perfekt zum Vorlesen',
+    images: ['https://fluxie.de/images/abenteuergeschichten-og.jpg']
   },
   robots: {
     index: true,
     follow: true
   },
   alternates: {
-    canonical: 'https://fluxie.de/lesewelt/gutenachtgeschichten'
+    canonical: 'https://fluxie.de/lesewelt/abenteuergeschichten'
   }
 }
 
-export default function GutenachtgeschichtenPage() {
+export default function AbenteuergeschichtenPage() {
   // Schema.org JSON-LD Strukturierte Daten
   const collectionPageSchema = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    "name": "Gutenachtgeschichten für Kinder",
-    "description": "Sammlung beruhigender Gutenachtgeschichten zum Vorlesen für Kinder ab 3 Jahren.",
-    "url": "https://fluxie.de/lesewelt/gutenachtgeschichten",
+    "name": "Abenteuergeschichten für Kinder",
+    "description": "Sammlung spannender Abenteuergeschichten zum Vorlesen für Kinder ab 4 Jahren.",
+    "url": "https://fluxie.de/lesewelt/abenteuergeschichten",
     "mainEntity": {
       "@type": "ItemList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Gutenachtgeschichten mit Hunden",
-          "url": "https://fluxie.de/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
-        }
-      ]
+      "itemListElement": []
     },
     "audience": {
       "@type": "PeopleAudience",
-      "suggestedMinAge": 3,
-      "suggestedMaxAge": 10
+      "suggestedMinAge": 4,
+      "suggestedMaxAge": 12
     },
     "inLanguage": "de-DE",
     "isPartOf": {
@@ -85,8 +78,8 @@ export default function GutenachtgeschichtenPage() {
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Gutenachtgeschichten",
-        "item": "https://fluxie.de/lesewelt/gutenachtgeschichten"
+        "name": "Abenteuergeschichten",
+        "item": "https://fluxie.de/lesewelt/abenteuergeschichten"
       }
     ]
   }
@@ -138,7 +131,7 @@ export default function GutenachtgeschichtenPage() {
                 <span className="mx-2">›</span>
               </li>
               <li aria-current="page">
-                <span className="text-gray-900">Gutenachtgeschichten</span>
+                <span className="text-gray-900">Abenteuergeschichten</span>
               </li>
             </ol>
           </nav>
@@ -146,22 +139,21 @@ export default function GutenachtgeschichtenPage() {
           {/* Kategorie-Header */}
           <header className="mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: '#f77f00' }}>
-              🌙 Gutenachtgeschichten für Kinder: Zauberhafte Einschlafgeschichten
+              ⚔️ Abenteuergeschichten für Kinder: Spannende Vorlesegeschichten
             </h1>
 
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="text-xl leading-relaxed mb-4">
-                Entdecke unsere zauberhafte Sammlung an <strong>Gutenachtgeschichten</strong>, die
-                Kinder sanft und friedlich in den Schlaf begleiten. Ob kurze Einschlafgeschichten
-                für die Kleinsten oder längere Vorlesegeschichten für größere Kinder – hier findest
-                du die perfekte Gute-Nacht-Geschichte für dein Kind.
+                Entdecke unsere aufregende Sammlung an <strong>Abenteuergeschichten</strong>, die
+                Kinder auf spannende Reisen mitnehmen und ihre Fantasie beflügeln. Ob mutige Helden,
+                geheimnisvolle Schätze oder fantastische Welten – hier findest du die perfekte
+                Abenteuergeschichte für kleine Entdecker.
               </p>
 
               <p className="text-lg leading-relaxed mb-4">
-                Alle Gutenachtgeschichten sind speziell darauf ausgelegt, eine beruhigende
-                Atmosphäre zu schaffen und das abendliche Vorleseritual zu einem besonderen
-                Erlebnis zu machen. Perfekt zum Vorlesen vor dem Schlafengehen oder zum
-                gemeinsamen Kuscheln im Bett.
+                Alle Abenteuergeschichten sind speziell darauf ausgelegt, Mut zu fördern,
+                Problemlösungsfähigkeiten zu stärken und die Vorstellungskraft anzuregen.
+                Perfekt zum Vorlesen am Nachmittag oder als aufregendes Abendritual.
               </p>
             </div>
           </header>
@@ -185,12 +177,12 @@ export default function GutenachtgeschichtenPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
-                  Gutenachtgeschichten interaktiv erleben
+                  Abenteuergeschichten interaktiv erleben
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Mit den Fluxie Lesekarten werden Gutenachtgeschichten zum interaktiven Erlebnis.
-                  Dein Kind kann die Geschichten selbst entdecken und dabei spielerisch lesen lernen –
-                  perfekt für das Abendritual!
+                  Mit den Fluxie Lesekarten werden Abenteuergeschichten zum interaktiven Erlebnis.
+                  Dein Kind kann die spannenden Geschichten selbst entdecken und dabei spielerisch
+                  lesen lernen – perfekt für kleine Entdecker!
                 </p>
                 <a
                   href="https://fluxie.de/produkt/pionierset/"
@@ -204,35 +196,34 @@ export default function GutenachtgeschichtenPage() {
             </div>
           </div>
 
-          {/* Gutenachtgeschichten nach Themen - NACH OBEN VERSCHOBEN! */}
+          {/* Abenteuergeschichten nach Themen */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
-              Gutenachtgeschichten nach Themen
+              Abenteuergeschichten nach Themen
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <a
-                href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden"
+                href="/lesewelt/abenteuergeschichten/piraten-abenteuer"
                 className="group"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 h-full">
-                  <div className="text-5xl mb-3">🐕</div>
+                  <div className="text-5xl mb-3">🏴‍☠️</div>
                   <h3 className="text-xl font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
-                    Gutenachtgeschichten mit Hunden
+                    Piraten-Abenteuer
                   </h3>
                   <p className="text-gray-600">
-                    Herzerwärmende Einschlafgeschichten mit treuen Vierbeinern, die Kindern
-                    zeigen, wie wunderbar Freundschaft und Geborgenheit sind.
+                    Spannende Geschichten über mutige Seefahrer, geheimnisvolle Schätze und lustige Erlebnisse auf hoher See
                   </p>
                 </article>
               </a>
 
               <div className="bg-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-5xl mb-3">🐱</div>
+                <div className="text-5xl mb-3">🏰</div>
                 <h3 className="text-xl font-bold mb-2 text-gray-600">
-                  Weitere Themen folgen...
+                  Ritter & Drachen
                 </h3>
                 <p className="text-gray-500">
-                  Bald findest du hier noch mehr zauberhafte Gutenachtgeschichten zu verschiedenen Themen!
+                  Heldenhafte Geschichten über tapfere Ritter und feuerspeiende Drachen – demnächst hier!
                 </p>
               </div>
             </div>
@@ -248,49 +239,43 @@ export default function GutenachtgeschichtenPage() {
             </div>
           </section>
 
-          {/* Beliebte Geschichten - NEU! */}
+          {/* Beliebte Geschichten */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
-              Beliebte Gutenachtgeschichten
+              Beliebte Abenteuergeschichten
             </h2>
             <p className="text-lg text-gray-700 mb-6">
-              Diese Geschichten werden von Kindern besonders geliebt und sind perfekt für das abendliche Vorleseritual:
+              Diese Geschichten werden von kleinen Abenteurern besonders geliebt:
             </p>
             <div className="grid md:grid-cols-3 gap-6">
-              {/* Story Card 1 */}
+              {/* Story Card 1 - Pete */}
               <a
-                href="/lesewelt/gutenachtgeschichten/gutenachtgeschichten-mit-hunden/wuffi-und-die-schlafschafe"
+                href="/lesewelt/abenteuergeschichten/pete-der-lachende-piraten-papagei"
                 className="group block"
               >
                 <article className="bg-white rounded-xl shadow-md p-6 hover:shadow-xl transition-all h-full">
-                  <div className="mb-4 flex justify-center">
-                    <img
-                      src="https://wunschturmkinder.de/wp-content/uploads/2025/02/wuffi_001.jpg"
-                      alt="Wuffi und die Schlafschafe"
-                      className="w-20 h-20 object-cover rounded-lg"
-                    />
-                  </div>
+                  <div className="text-5xl mb-4 text-center">🦜🏴‍☠️</div>
                   <h3 className="text-lg font-bold mb-2 group-hover:opacity-80" style={{ color: '#f77f00' }}>
-                    Wuffi und die Schlafschafe
+                    Pete der lachende Piraten Papagei
                   </h3>
                   <p className="text-sm text-gray-600 mb-3">
-                    Eine lustige Geschichte über einen quirligen Hund, der lernt, zur Ruhe zu kommen.
+                    Eine lustige Piratengeschichte über Freundschaft und wahre Schätze.
                   </p>
                   <div className="text-xs text-gray-500">
-                    <span className="mr-3">👶 Ab 3 Jahren</span>
-                    <span>⏱️ 5 Min.</span>
+                    <span className="mr-3">👶 Ab 4 Jahren</span>
+                    <span>⏱️ 8 Min.</span>
                   </div>
                 </article>
               </a>
 
               {/* Placeholder Card 2 */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-4xl mb-4 text-center">🌙✨</div>
+                <div className="text-4xl mb-4 text-center">🗺️🔍</div>
                 <h3 className="text-lg font-bold mb-2 text-gray-600">
                   Weitere Geschichten folgen
                 </h3>
                 <p className="text-sm text-gray-500 mb-3">
-                  Bald findest du hier noch mehr zauberhafte Geschichten.
+                  Bald findest du hier noch mehr spannende Geschichten.
                 </p>
                 <div className="text-xs text-gray-400">
                   <span className="mr-3">Demnächst...</span>
@@ -299,12 +284,12 @@ export default function GutenachtgeschichtenPage() {
 
               {/* Placeholder Card 3 */}
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-6 opacity-60">
-                <div className="text-4xl mb-4 text-center">📖💫</div>
+                <div className="text-4xl mb-4 text-center">🏴‍☠️💎</div>
                 <h3 className="text-lg font-bold mb-2 text-gray-600">
                   Neue Abenteuer
                 </h3>
                 <p className="text-sm text-gray-500 mb-3">
-                  Jeden Monat kommen neue Gutenachtgeschichten hinzu.
+                  Jeden Monat kommen neue Abenteuergeschichten hinzu.
                 </p>
                 <div className="text-xs text-gray-400">
                   <span className="mr-3">Bald verfügbar</span>
@@ -313,53 +298,53 @@ export default function GutenachtgeschichtenPage() {
             </div>
           </section>
 
-          {/* Warum Gutenachtgeschichten wichtig sind */}
+          {/* Warum Abenteuergeschichten wichtig sind */}
           <section className="mb-12 bg-white rounded-xl p-8 shadow-md">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
-              Warum sind Gutenachtgeschichten so wichtig?
+              Warum sind Abenteuergeschichten so wichtig?
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <span className="text-2xl mr-3">💤</span>
-                  <span><strong>Beruhigende Wirkung:</strong> Gutenachtgeschichten helfen Kindern,
-                  vom aufregenden Tag abzuschalten und zur Ruhe zu kommen.</span>
+                  <span className="text-2xl mr-3">💪</span>
+                  <span><strong>Mut fördern:</strong> Abenteuergeschichten helfen Kindern,
+                  über sich hinauszuwachsen und Herausforderungen anzunehmen.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-2xl mr-3">❤️</span>
-                  <span><strong>Bindung stärken:</strong> Das gemeinsame Vorleseritual schafft
-                  wertvolle Nähe zwischen Eltern und Kind.</span>
+                  <span className="text-2xl mr-3">🧩</span>
+                  <span><strong>Problemlösung:</strong> Durch spannende Situationen lernen Kinder,
+                  kreative Lösungen zu finden.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-2xl mr-3">📚</span>
-                  <span><strong>Sprachentwicklung:</strong> Regelmäßiges Vorlesen fördert den
-                  Wortschatz und die Sprachkompetenz.</span>
+                  <span className="text-2xl mr-3">🌍</span>
+                  <span><strong>Weltverständnis:</strong> Geschichten über fremde Länder und
+                  Kulturen erweitern den Horizont.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-2xl mr-3">✨</span>
-                  <span><strong>Fantasie anregen:</strong> Geschichten vor dem Einschlafen
-                  regen die Vorstellungskraft an und fördern kreatives Denken.</span>
+                  <span><strong>Fantasie anregen:</strong> Abenteuergeschichten beflügeln die
+                  Vorstellungskraft und fördern kreatives Denken.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-2xl mr-3">😴</span>
-                  <span><strong>Besserer Schlaf:</strong> Das abendliche Vorleseritual signalisiert
-                  dem Körper, dass es Zeit ist zur Ruhe zu kommen.</span>
+                  <span className="text-2xl mr-3">🤝</span>
+                  <span><strong>Soziale Werte:</strong> Viele Abenteuergeschichten vermitteln
+                  Werte wie Freundschaft, Zusammenhalt und Hilfsbereitschaft.</span>
                 </li>
               </ul>
             </div>
           </section>
 
-          {/* Tipps für das Vorlesen - NACH OBEN VERSCHOBEN! */}
+          {/* Tipps für das Vorlesen */}
           <section className="mb-12 bg-orange-50 rounded-xl p-8 border-2 border-orange-100">
             <h2 className="text-2xl font-bold mb-4" style={{ color: '#f77f00' }}>
-              💡 Tipps für das abendliche Vorlesen
+              💡 Tipps für das Vorlesen von Abenteuergeschichten
             </h2>
             <ul className="space-y-2 text-gray-700">
-              <li>✓ <strong>Feste Routine:</strong> Lies jeden Abend zur gleichen Zeit vor</li>
-              <li>✓ <strong>Ruhige Atmosphäre:</strong> Dimme das Licht und schaffe eine gemütliche Umgebung</li>
-              <li>✓ <strong>Langsam lesen:</strong> Nimm dir Zeit und lies mit ruhiger Stimme</li>
-              <li>✓ <strong>Kuscheln:</strong> Körperliche Nähe verstärkt die beruhigende Wirkung</li>
-              <li>✓ <strong>Kurze Geschichten:</strong> Wähle altersgerechte Geschichten, die nicht zu aufregend sind</li>
+              <li>✓ <strong>Lebendige Stimme:</strong> Nutze verschiedene Stimmen für unterschiedliche Charaktere</li>
+              <li>✓ <strong>Spannung aufbauen:</strong> Lies langsamer in spannenden Momenten und schneller bei Action</li>
+              <li>✓ <strong>Pausen einbauen:</strong> Lass Kinder raten, wie die Geschichte weitergeht</li>
+              <li>✓ <strong>Nachbesprechen:</strong> Sprecht über die Abenteuer und was die Helden gelernt haben</li>
+              <li>✓ <strong>Interaktiv gestalten:</strong> Lass dein Kind Geräusche oder Bewegungen mitmachen</li>
             </ul>
           </section>
 
@@ -382,11 +367,11 @@ export default function GutenachtgeschichtenPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-3" style={{ color: '#f77f00' }}>
-                  Erweitere deine Geschichtensammlung mit Luna
+                  Entdecke Luna – Ein mutiges Abenteuer
                 </h3>
                 <p className="text-gray-700 mb-4 leading-relaxed">
-                  Luna die Löwin ist eine wunderbare Geschichte über Mut und das Finden der eigenen
-                  Stimme. Perfekt, um die Gutenachtgeschichten-Sammlung zu erweitern und jeden Abend neue Abenteuer zu erleben!
+                  Luna die Löwin ist eine wunderbare Abenteuergeschichte über Mut und das Finden der eigenen
+                  Stimme. Perfekt für Kinder, die spannende Geschichten lieben und selbst mutig sein wollen!
                 </p>
                 <a
                   href="https://fluxie.de/produkt/luna-die-loewin-mit-der-leisen-stimme/"
@@ -400,53 +385,51 @@ export default function GutenachtgeschichtenPage() {
             </div>
           </div>
 
-          {/* Die Bedeutung von Gutenachtgeschichten - Wissenschaftlich fundiert */}
+          {/* Die Bedeutung von Abenteuergeschichten - Wissenschaftlich fundiert */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6 text-gray-800">
-              Die Bedeutung von Gutenachtgeschichten: Wissenschaftlich fundiert
+              Die Bedeutung von Abenteuergeschichten: Wissenschaftlich fundiert
             </h2>
 
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <p className="leading-relaxed">
-                Das abendliche Vorlesen von Gutenachtgeschichten ist weit mehr als nur ein liebgewonnenes
-                Ritual – es ist ein wertvolles Instrument für die kindliche Entwicklung. Zahlreiche
-                wissenschaftliche Studien belegen die positiven Auswirkungen auf verschiedene Entwicklungsbereiche.
+                Abenteuergeschichten sind weit mehr als nur spannende Unterhaltung – sie sind ein wertvolles
+                Instrument für die kindliche Entwicklung. Pädagogische Studien belegen die positiven Auswirkungen
+                auf verschiedene Entwicklungsbereiche.
               </p>
 
               <div className="bg-purple-50 rounded-xl p-6 border-l-4 border-purple-600">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">
-                  Förderung der Sprachentwicklung
+                  Förderung von Resilienz und Selbstbewusstsein
                 </h3>
                 <p className="leading-relaxed">
-                  Forschungen zeigen, dass Kinder, denen regelmäßig vorgelesen wird, einen deutlich größeren
-                  Wortschatz entwickeln und bessere sprachliche Fähigkeiten aufweisen. Die American Academy
-                  of Pediatrics empfiehlt das Vorlesen sogar schon ab dem Säuglingsalter, da es die
-                  Gehirnentwicklung stimuliert und den Grundstein für spätere Lesekompetenz legt.
+                  Forschungen zeigen, dass Kinder, die regelmäßig Abenteuergeschichten hören, ein stärkeres
+                  Selbstbewusstsein entwickeln. Durch die Identifikation mit mutigen Helden lernen sie,
+                  dass Herausforderungen gemeistert werden können. Dies stärkt ihre Resilienz und
+                  Problemlösungsfähigkeiten im Alltag.
                 </p>
               </div>
 
               <div className="bg-blue-50 rounded-xl p-6 border-l-4 border-blue-600">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">
-                  Verbesserung der Schlafqualität
+                  Entwicklung kognitiver Fähigkeiten
                 </h3>
                 <p className="leading-relaxed">
-                  Aktuelle Erkenntnisse der Schlafmedizin bestätigen den positiven Einfluss von abendlichen
-                  Vorleseritualen auf die Schlafqualität. Kinder, denen regelmäßig Gutenachtgeschichten
-                  vorgelesen werden, schlafen im Durchschnitt schneller ein und haben einen tieferen,
-                  erholsameren Schlaf. Dies wirkt sich positiv auf ihre Konzentrationsfähigkeit und
-                  emotionale Ausgeglichenheit am nächsten Tag aus.
+                  Abenteuergeschichten mit komplexen Handlungssträngen fördern das logische Denken und die
+                  Konzentrationsfähigkeit. Kinder lernen, Zusammenhänge zu erkennen, Ursache und Wirkung
+                  zu verstehen und vorausschauend zu denken. Diese Fähigkeiten sind essentiell für die
+                  schulische Entwicklung.
                 </p>
               </div>
 
               <div className="bg-pink-50 rounded-xl p-6 border-l-4 border-pink-600">
                 <h3 className="text-2xl font-bold mb-4 text-gray-800">
-                  Emotionale und soziale Entwicklung
+                  Sozial-emotionale Kompetenz
                 </h3>
                 <p className="leading-relaxed">
-                  Pädagogen betonen die positiven Auswirkungen auf die sozial-emotionale Entwicklung: Durch
-                  verschiedene Charaktere und Handlungen lernen Kinder spielerisch, sich in andere
-                  hineinzuversetzen und verschiedene Perspektiven zu verstehen. Die ruhige Atmosphäre beim
-                  Vorlesen bietet zudem einen idealen Rahmen für Gespräche über die Erlebnisse des Tages.
+                  Durch Abenteuergeschichten lernen Kinder wichtige soziale Werte wie Teamarbeit, Loyalität
+                  und Hilfsbereitschaft. Sie erleben, wie Charaktere Konflikte lösen und Freundschaften
+                  aufbauen. Dies unterstützt die Entwicklung ihrer eigenen sozialen Kompetenzen.
                 </p>
               </div>
 
@@ -455,9 +438,9 @@ export default function GutenachtgeschichtenPage() {
                   Kreativität und Vorstellungskraft
                 </h3>
                 <p className="leading-relaxed">
-                  Ein weiterer wichtiger Aspekt ist die Förderung der Kreativität: Anders als bei visuellen
-                  Medien müssen Kinder beim Zuhören ihre eigenen inneren Bilder entwickeln. Dies stärkt die
-                  Vorstellungskraft und regt die Fantasie an – wichtige Fähigkeiten für die kognitive Entwicklung.
+                  Abenteuergeschichten entführen Kinder in fantastische Welten und regen ihre Fantasie an.
+                  Dies fördert kreatives Denken und die Fähigkeit, über den Tellerrand zu schauen –
+                  wichtige Kompetenzen für Innovation und Problemlösung in der Zukunft.
                 </p>
               </div>
             </div>
@@ -466,17 +449,16 @@ export default function GutenachtgeschichtenPage() {
           {/* Testimonial */}
           <section className="mb-12 bg-gradient-to-r from-orange-50 to-yellow-50 rounded-xl p-8 border-2" style={{ borderColor: '#f77f00' }}>
             <h2 className="text-2xl font-bold mb-6 text-gray-800 text-center">
-              Was Eltern über unsere Gutenachtgeschichten sagen
+              Was Eltern über unsere Abenteuergeschichten sagen
             </h2>
             <blockquote className="text-center">
               <p className="text-lg italic text-gray-700 mb-4 leading-relaxed">
-                "Seit wir die Fluxie Gutenachtgeschichten entdeckt haben, ist das Zubettgehen viel
-                entspannter geworden. Unsere Tochter Emma (4) freut sich jeden Abend auf ihre Geschichte
-                und schläft danach viel schneller ein. Die Geschichten sind wunderschön erzählt und
-                haben genau die richtige Länge!"
+                "Unser Sohn Leo (6) liebt die Fluxie Abenteuergeschichten! Seit wir sie regelmäßig lesen,
+                ist er viel mutiger geworden und traut sich mehr zu. Die Geschichten sind spannend,
+                aber nicht zu aufregend – genau richtig für sein Alter!"
               </p>
               <footer className="text-gray-600 font-medium">
-                — Sarah M., Mutter einer 4-jährigen Tochter
+                — Michael T., Vater eines 6-jährigen Sohnes
               </footer>
             </blockquote>
           </section>
@@ -484,66 +466,66 @@ export default function GutenachtgeschichtenPage() {
           {/* FAQ Sektion */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-8 text-gray-800">
-              Häufig gestellte Fragen zu Gutenachtgeschichten
+              Häufig gestellte Fragen zu Abenteuergeschichten
             </h2>
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
-                  Wie lang sollte eine Gutenachtgeschichte sein?
+                  Ab welchem Alter sind Abenteuergeschichten geeignet?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Für die meisten Kinder sind Geschichten von 5-10 Minuten Vorlesezeit ideal. Bei jüngeren
-                  Kindern (2-4 Jahre) empfehlen sich kürzere Geschichten von 3-5 Minuten, während ältere
-                  Kinder (5-8 Jahre) auch längere Geschichten von bis zu 15 Minuten genießen können. Wichtig
-                  ist, dass die Geschichte noch vor dem Einschlafen zu Ende geht.
+                  Abenteuergeschichten sind ideal für Kinder ab 4-5 Jahren. In diesem Alter können sie
+                  komplexere Handlungsstränge verstehen und sich mit Heldenfiguren identifizieren. Jüngere
+                  Kinder profitieren von einfacheren Abenteuergeschichten mit klaren Strukturen, während
+                  ältere Kinder (8-12 Jahre) auch längere, komplexere Abenteuer genießen können.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
-                  Ab welchem Alter sind Gutenachtgeschichten sinnvoll?
+                  Sind Abenteuergeschichten nicht zu aufregend vor dem Schlafengehen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Schon Babys ab 6 Monaten profitieren vom Vorlesen! Die beruhigende Stimme und der
-                  gleichmäßige Rhythmus haben eine entspannende Wirkung. Unsere Gutenachtgeschichten sind
-                  speziell für Kinder ab 3 Jahren konzipiert, aber auch jüngere Kinder können sie bereits
-                  genießen. Das Wichtigste ist, dass das Vorlesen zum festen Bestandteil des Abendrituals wird.
+                  Das hängt vom Kind und der Geschichte ab. Viele Abenteuergeschichten haben ein beruhigendes
+                  Ende und sind so gestaltet, dass sie zwar spannend, aber nicht übermäßig aufwühlend sind.
+                  Für das abendliche Ritual empfehlen sich kürzere Abenteuer mit positivem Ausgang. Sehr
+                  spannende Geschichten liest man besser tagsüber vor.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
-                  Können Gutenachtgeschichten Albträume verhindern?
+                  Wie kann ich mein Kind während des Vorlesens einbeziehen?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Ja! Positive, beruhigende Gutenachtgeschichten können tatsächlich dazu beitragen, Albträume
-                  zu reduzieren. Sie schaffen positive Gedanken und Bilder, mit denen Kinder einschlafen.
-                  Wichtig ist, auf Geschichten mit harmonischem Ende zu achten und aufwühlende oder spannende
-                  Inhalte am Abend zu vermeiden.
+                  Stelle Zwischenfragen wie "Was würdest du jetzt tun?" oder "Wie fühlt sich der Held wohl?".
+                  Lass dein Kind Geräusche machen oder einfache Bewegungen zur Geschichte ausführen. Nach dem
+                  Vorlesen könnt ihr gemeinsam über die Geschichte sprechen und überlegen, was die Charaktere
+                  gelernt haben.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
-                  Was tun, wenn mein Kind immer "noch eine Geschichte" möchte?
+                  Welche Werte vermitteln Abenteuergeschichten?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Das ist völlig normal! Setze klare, liebevolle Grenzen: "Wir lesen jeden Abend eine
-                  Geschichte. Morgen gibt es eine neue." Bleibe konsequent, aber einfühlsam. Alternativ
-                  kannst du anbieten, dass dein Kind sich die Geschichte noch einmal im Kopf vorstellen
-                  darf – das fördert die Fantasie und hilft beim Einschlafen.
+                  Gute Abenteuergeschichten vermitteln wichtige Werte wie Mut, Durchhaltevermögen,
+                  Freundschaft, Hilfsbereitschaft und Problemlösungskompetenz. Sie zeigen, dass Herausforderungen
+                  gemeistert werden können und dass es okay ist, auch mal Angst zu haben. Zudem lernen Kinder,
+                  dass Teamarbeit oft erfolgreicher ist als Einzelkämpfertum.
                 </p>
               </div>
 
               <div className="bg-white rounded-xl p-6 shadow-md border-l-4" style={{ borderLeftColor: '#f77f00' }}>
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
-                  Sollte ich immer dieselbe Geschichte vorlesen?
+                  Wie lang sollte eine Abenteuergeschichte sein?
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Kinder lieben Wiederholungen! Es ist völlig in Ordnung, wenn dein Kind über Wochen
-                  dieselbe Lieblingsgeschichte hören möchte. Die Vertrautheit gibt Sicherheit und
-                  Geborgenheit. Biete trotzdem gelegentlich neue Geschichten an – viele Kinder mögen eine
-                  Mischung aus vertrauten Klassikern und neuen Abenteuern.
+                  Für jüngere Kinder (4-6 Jahre) sind Geschichten von 8-12 Minuten ideal. Ältere Kinder
+                  (7-10 Jahre) können längere Geschichten von 15-20 Minuten oder sogar Fortsetzungsgeschichten
+                  genießen. Wichtig ist, dass die Geschichte in einem Lesegang abgeschlossen werden kann,
+                  damit das Kind ein Erfolgserlebnis hat.
                 </p>
               </div>
             </div>
